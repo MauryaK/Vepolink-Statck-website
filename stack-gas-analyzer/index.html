@@ -1,0 +1,1345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="X0h5XHx26-EWVg8KaFcj9au2VLUj5USVeGJmH7JD-JA">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; upgrade-insecure-requests">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#fafaf7">
+    <meta name="description"
+        content="Vepolink indoor air quality monitoring for CO2, PM2.5, TVOC, temperature, humidity and CO with room-level IAQ scoring and BMS integration.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://www.vepolink.com/indoor-air-monitoring/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name" content="Vepolink">
+    <meta property="og:title" content="Indoor Air Quality Monitoring (IAQ) - Vepolink">
+    <meta property="og:description"
+        content="Calibrated room-level IAQ nodes, occupant comfort scoring and demand-controlled ventilation through your BMS.">
+    <meta property="og:url" content="https://www.vepolink.com/indoor-air-monitoring/">
+    <meta property="og:image" content="https://www.vepolink.com/assets/social/indoor-air-monitoring.jpg">
+    <meta property="og:image:secure_url" content="https://www.vepolink.com/assets/social/indoor-air-monitoring.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Vepolink room-level indoor air quality monitoring dashboard">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Indoor Air Quality Monitoring (IAQ) - Vepolink">
+    <meta name="twitter:description"
+        content="Live indoor air quality, room comfort scores and BMS ventilation control across every zone.">
+    <meta name="twitter:image" content="https://www.vepolink.com/assets/social/indoor-air-monitoring.jpg">
+    <meta name="twitter:image:alt" content="Vepolink room-level indoor air quality monitoring dashboard">
+    <title>Stack Gas Analyzer - Vepolink</title>
+    <link rel="icon" type="image/png" href="/assets/vepolink-favicon.png">
+    <link rel="preload" href="/assets/site.css?v=20260819indoor2" as="style">
+    <link rel="stylesheet" href="/assets/site.css?v=20260819indoor2">
+    <script defer src="/assets/shared-ui.js?v=20260819indoor"></script>
+    <script defer src="/assets/site.js?v=20260819indoor"></script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.vepolink.com/#organization","name":"VEPOLINK TECHNOLOGIES LLP","alternateName":"Vepolink","url":"https://www.vepolink.com/","logo":"https://www.vepolink.com/assets/vepolink-logo-horizontal-trimmed.png"},{"@type":"Service","@id":"https://www.vepolink.com/indoor-air-monitoring/#service","name":"Indoor Air Quality Monitoring (IAQ)","serviceType":"Room-level indoor air quality monitoring and building ventilation control","provider":{"@id":"https://www.vepolink.com/#organization"},"areaServed":"IN","url":"https://www.vepolink.com/indoor-air-monitoring/"},{"@type":"WebPage","@id":"https://www.vepolink.com/indoor-air-monitoring/#webpage","url":"https://www.vepolink.com/indoor-air-monitoring/","name":"Indoor Air Quality Monitoring (IAQ) - Vepolink","about":{"@id":"https://www.vepolink.com/indoor-air-monitoring/#service"},"publisher":{"@id":"https://www.vepolink.com/#organization"},"inLanguage":"en"}]}
+  </script>
+</head>
+
+<body>
+    <site-header>
+        <header class="site-header" data-header>
+            <div class="shell nav-shell">
+                <a class="brand" href="/" aria-label="Vepolink home">
+                    <img src="/assets/vepolink-logo-horizontal-trimmed.png" width="206" height="40" alt="Vepolink">
+                </a>
+                <nav class="primary-nav" aria-label="Primary navigation">
+                    <a class="nav-link" href="/">Home</a>
+                    <div class="nav-dropdown">
+                        <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+                            Solutions
+                            <span aria-hidden="true">▾</span>
+                        </button>
+
+                        <div class="nav-menu" role="menu">
+                            <a class="nav-menu-link" href="/water-quality-monitoring/">Water quality monitoring
+                                (WQMS)</a><a class="nav-menu-link" href="/stack-emission-monitoring/">Stack emission
+                                monitoring (CEMS / OCEMS)</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-dropdown" data-nav-dropdown>
+                        <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+                            Products
+                            <span aria-hidden="true">▾</span>
+                        </button>
+                        <div class="nav-mega-menu">
+                            <div class="nav-bg shell">
+                                <div class="nav-mega-menu-column">
+                                    <div class="card">
+                                        <div class="nav-header">
+                                            <div class="nav-grid">
+                                                <div class="nav-btn active" data-target="caaqms-products">
+                                                    <div class="nav-title"><strong>CAAQMS</strong></div>
+                                                    <div class="nav-subtitle">continuously measure air pollutants
+                                                    </div>
+                                                </div>
+                                                <div class="nav-btn" data-target="wqmas-products">
+                                                    <div class="nav-title"><strong>WQMS</strong></div>
+                                                    <div class="nav-subtitle">Water Quality Monitoring System
+                                                    </div>
+                                                </div>
+                                                <div class="nav-btn" data-target="flow-products">
+                                                    <div class="nav-title"><strong>Flow & Level</strong></div>
+                                                    <div class="nav-subtitle">Reliable flow and level monitoring.
+                                                    </div>
+                                                </div>
+                                                <div class="nav-btn" data-target="gas-analyzer">
+                                                    <div class="nav-title"><strong>Gas Analyzer</strong></div>
+                                                    <div class="nav-subtitle">Used to identify & measure gases in air
+                                                    </div>
+                                                </div>
+                                                <div class="nav-btn" data-target="gas-detector">
+                                                    <div class="nav-title"><strong>Gas Detection</strong></div>
+                                                    <div class="nav-subtitle">Used to detect gases in air
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nav-list">
+                                                <div class="oveflo">
+                                                    <div class="list-grid" data-list="caaqms-products">
+                                                        <div class="grid">
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Clima Guard</div>
+                                                                        <div class="list-item-subtitle">Air quality
+                                                                            monitoring
+                                                                            solution Provides real-time</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">PM 10 and PM 2.5
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Continuously
+                                                                            measures
+                                                                            particulate matter concentration ambient...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">Ambient SO2 Gas
+                                                                            Analyzer
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Measures minimum
+                                                                            amount
+                                                                            of SO₂, in air correctly using the UV
+                                                                            fluorescene
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Ambient NOx Gas Analyzer</div>
+                                                                        <div class="list-item-subtitle">Is Use measures
+                                                                            the
+                                                                            minimum amount of NOx(NO, NO2) in air </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Ambient Ozone Gas Analyzer</div>
+                                                                        <div class="list-item-subtitle">Used to measure
+                                                                            the
+                                                                            amount of Ozone in the air.</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Ambient CO Gas Analyzer</div>
+                                                                        <div class="list-item-subtitle">Used to measure
+                                                                            the
+                                                                            amount of CO in the air.</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Million Plus Cities Urban Air Quality
+                                                                            Monitor
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">check on the air
+                                                                            pollution levels of various regions</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Multi point calibrator</div>
+                                                                        <div class="list-item-subtitle">Used to
+                                                                            calibrate
+                                                                            NO, NO2, SO2 gas analyzers</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Ultrasonic Weather Monitoring Station</div>
+                                                                        <div class="list-item-subtitle">Used to measure
+                                                                            temperature, humidity, wind speed, and wind
+                                                                            direction.</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Zero Air Unit</div>
+                                                                        <div class="list-item-subtitle">Used to generate
+                                                                            pollutant-free air (Zero Air) for
+                                                                            calibrating gas analyzers.</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Low Volume PM Sampler(PM2.5&PM10)</div>
+                                                                        <div class="list-item-subtitle">Used to collect
+                                                                            particulate matter samples (PM2.5 and
+                                                                            PM10)...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">
+                                                                            Particle Counter</div>
+                                                                        <div class="list-item-subtitle">Real-time
+                                                                            monitoring
+                                                                            of
+                                                                            particulate matter sizes and counts.</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">Benzene Series
+                                                                            Online
+                                                                            Analyzer
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Benzene
+                                                                            monitoring
+                                                                            in
+                                                                            accordance with EN 16423 standards.</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M5 20V5h14v15M9 9h6M9 13h6M9 17h2M3 20h18">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div>
+                                                                        <div class="list-item-title">Ambient CO2 Gas
+                                                                            Analyzer
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Real-time CO2
+                                                                            monitoring
+                                                                            for indoor and outdoor air quality
+                                                                            assessments.
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="more-link">
+                                                                <a href="#">View More <span>→</span></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="figure">
+                                                            <img src="/assets/data-logger/th1.png" alt="">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="list-grid" data-list="wqmas-products">
+                                                        <div class="grid">
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Ph Analog</div>
+                                                                        <div class="list-item-subtitle">widely used in
+                                                                            pH
+                                                                            monitoring in water treatment, hydrological
+                                                                            monitoring</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            ORP Analog</div>
+                                                                        <div class="list-item-subtitle">ORP sensor is a
+                                                                            combination electrode that includes a
+                                                                            precious
+                                                                            metals</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            EC Analog</div>
+                                                                        <div class="list-item-subtitle">Conductivity
+                                                                            Sensor,
+                                                                            featuring a glass platinum electrode</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Ph Digital</div>
+                                                                        <div class="list-item-subtitle">suitable for all
+                                                                            kinds of harsh working environment</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Optical Dissolved Oxygen (ODO)</div>
+                                                                        <div class="list-item-subtitle">Sensor utilizes
+                                                                            fluorescence technology to accurately
+                                                                            measure
+                                                                            dissolved...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            UV COD</div>
+                                                                        <div class="list-item-subtitle">UV COD sensor
+                                                                            measures the concentration of organic matter
+                                                                            in water...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">Suspended
+                                                                            Solids/Sludge
+                                                                            Sensor</div>
+                                                                        <div class="list-item-subtitle">This sensor
+                                                                            employs
+                                                                            advanced technology and robust...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">CPHL(Ch lorophyll
+                                                                            Sensor)</div>
+                                                                        <div class="list-item-subtitle">The light
+                                                                            intensity
+                                                                            of chlorophyll A is proportional to the
+                                                                            content...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">turbidity sensor
+                                                                            (Turb)
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Equipped with
+                                                                            advanced infrared scattered light
+                                                                            technology...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">turbidity sensor
+                                                                            (Turb)
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Equipped with
+                                                                            advanced infrared scattered light
+                                                                            technology...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">Nit rate Nitrogen
+                                                                            Sensor(NO3N)
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">highly accurate
+                                                                            and
+                                                                            reliable sensor designed for
+                                                                            measuring...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">Blu e-Green Algae
+                                                                            Sensor (BGA)
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">BGA is an
+                                                                            advanced
+                                                                            sensor engineered for precise...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="figure">
+                                                            <img src="/assets/data-logger/t5.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="list-grid" data-list="flow-products">
+                                                        <div class="grid">
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Electromagnetic Flowmeter - Inline</div>
+                                                                        <div class="list-item-subtitle">Vepolink's
+                                                                            Electromagnetic Flowmeter offers high
+                                                                            accuracy...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Electromagnetic Flowmeter – Insertion Type
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Vepolink's
+                                                                            Electromagnetic Flowmeter offers high
+                                                                            accuracy...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Ultrasonic Flowmeter – Non Contact Type
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Vepolink's
+                                                                            Ultrasonic Flowmeter offers high
+                                                                            accuracy...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Ultrasonic Flowmeter – Inline
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Vepolink's
+                                                                            Ultrasonic Flowmeter offers high
+                                                                            accuracy...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Ultrasonic Flowmeter – Clamp On
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Vepolink's
+                                                                            Ultrasonic Flowmeter offers high
+                                                                            accuracy...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Ultrasonic Non-Contact Type (Sonic
+                                                                            Intelligence)
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Vepolink's
+                                                                            Ultrasonic Flowmeter offers high
+                                                                            accuracy...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="figure">
+                                                            <img src="/assets/data-logger/t7.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="list-grid" data-list="gas-analyzer">
+                                                        <div class="grid">
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Extractive Flue / Stack Gas Analyzer</div>
+                                                                        <div class="list-item-subtitle">It can monitor
+                                                                            gas
+                                                                            parameters including the concentration...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            In-Situ Flue / Stack Gas Analyzer</div>
+                                                                        <div class="list-item-subtitle">Highly
+                                                                            integrated
+                                                                            single-flange gas monitoring...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            In situ TDLAS Gas analyzer</div>
+                                                                        <div class="list-item-subtitle">laser gas
+                                                                            analyzer
+                                                                            is a highly precise analyzer for gas
+                                                                            measurement...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Cross Duct Gas Analyzer
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">The transmitter
+                                                                            drives the tunable diode to emit a laser...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="figure"><img src="/assets/data-logger/th3.png"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="list-grid" data-list="gas-detector">
+                                                        <div class="grid">
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Portable Single Gas Detector / Monitor
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">detects the
+                                                                            presence
+                                                                            of any gas within an area, usually...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Portable Multi Gas Detector
+                                                                        </div>
+                                                                        <div class="list-item-subtitle"> It is widely
+                                                                            used
+                                                                            in areas where explosion-proofing...
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <a href="#">
+                                                                    <div class="icon nav-menu-icon"><svg
+                                                                            viewBox="0 0 24 24" focusable="false">
+                                                                            <path
+                                                                                d="M4 15c2.4 0 3.2-2.4 5.2-2.4 2.2 0 2.7 2.4 5.2 2.4 2.1 0 3.2-1.5 5.6-1.5M6 9.5c1.7 0 2.2-1.8 3.8-1.8 1.8 0 2.2 1.8 4 1.8M5 19h14">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="item-text">
+                                                                        <div class="list-item-title">
+                                                                            Fixed gas detector
+                                                                        </div>
+                                                                        <div class="list-item-subtitle">Gas leaks in a
+                                                                            busy
+                                                                            industrial environment can...</div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="figure"><img src="/assets/data-logger/t6.jpg"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nav-dropdown" data-nav-dropdown>
+                        <button class="nav-link nav-trigger" type="button" aria-expanded="false">
+                            Company
+                            <span aria-hidden="true">▾</span>
+                        </button>
+                        <div class="nav-menu" role="menu">
+                            <a class="nav-menu-link" href="/about/">About</a>
+                        </div>
+                    </div>
+
+                </nav>
+                <div class="nav-actions">
+                    <a href="https://enviro.vepolink.com" target="_blank" rel="noopener noreferrer">Sign in</a>
+                    <a class="button button-dark" href="mailto:sales@vepolink.com">Book a walkthrough</a>
+                </div>
+                <button class="mobile-nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+                    aria-controls="mobile-nav-panel" data-mobile-nav-toggle>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="mobile-nav-panel" id="mobile-nav-panel" aria-label="Mobile navigation" data-mobile-nav-panel>
+                <a class="mobile-nav-row" href="/">Home</a>
+
+                <section class="mobile-nav-group" data-mobile-nav-group>
+                    <button class="mobile-nav-row" type="button" aria-expanded="false"
+                        aria-controls="mobile-nav-solutions" data-mobile-nav-disclosure>
+                        <span>Solutions</span>
+                        <span aria-hidden="true">▾</span>
+                    </button>
+                    <div class="mobile-nav-submenu" id="mobile-nav-solutions" data-mobile-nav-items>
+                        <a class="mobile-nav-subitem" href="/water-quality-monitoring/">
+                            <span class="mobile-nav-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M7 13.8c2.9-3.8 4.1-6 5-8.8.9 2.8 2.1 5 5 8.8a5 5 0 1 1-10 0Z"></path>
+                                </svg>
+                            </span>
+                            <span>
+                                <strong>Water quality monitoring</strong>
+                                <small>WQMS</small>
+                            </span>
+                        </a>
+                        <a class="mobile-nav-subitem" href="/stack-emission-monitoring/">
+                            <span class="mobile-nav-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M7 20V8h5v12M12 20V4h5v16M5 20h14M14 7c2-2 4 0 4-3"></path>
+                                </svg>
+                            </span>
+                            <span>
+                                <strong>Stack emission monitoring</strong>
+                                <small>CEMS / OCEMS</small>
+                            </span>
+                        </a>
+                        <a class="mobile-nav-subitem" href="/data-loger/">
+                            <span class="mobile-nav-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M7 20V8h5v12M12 20V4h5v16M5 20h14M14 7c2-2 4 0 4-3"></path>
+                                </svg>
+                            </span>
+                            <span>
+                                <strong>IOT Device</strong>
+                                <small>IoT Data Logger</small>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+
+
+                <section class="mobile-nav-group" data-mobile-nav-group>
+                    <button class="mobile-nav-row" type="button" aria-expanded="false"
+                        aria-controls="mobile-nav-products" data-mobile-nav-disclosure>
+                        <span>Products</span>
+                        <span aria-hidden="true">▾</span>
+                    </button>
+                    <div class="mobile-nav-submenu" id="mobile-nav-products" data-mobile-nav-items>
+                        <a class="mobile-nav-subitem" href="/products/multi-paramater-online-water-analyzer/">
+                            <span class="mobile-nav-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path
+                                        d="M5.8 7.5h12.4M5.8 12h12.4M5.8 16.5h12.4M8.2 5.3v4.4M14.8 9.8v4.4M11.2 14.3v4.4">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span>
+                                <strong>Multi-Parameter Analyzer (Extractive)</strong>
+                                <small>Sample-line optical analyzer</small>
+                            </span>
+                        </a><a class="mobile-nav-subitem"
+                            href="/products/multi-parameter-online-water-analyzer-in-situ/">
+                            <span class="mobile-nav-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M12 3v3M8 6h8M9 6v10a3 3 0 0 0 6 0V6M7 20h10"></path>
+                                </svg>
+                            </span>
+                            <span>
+                                <strong>Multi-Parameter Analyzer (In-situ)</strong>
+                                <small>Direct-immersion UV-Vis sensor</small>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+
+
+                <section class="mobile-nav-group" data-mobile-nav-group>
+                    <button class="mobile-nav-row" type="button" aria-expanded="false"
+                        aria-controls="mobile-nav-company" data-mobile-nav-disclosure>
+                        <span>Company</span>
+                        <span aria-hidden="true">▾</span>
+                    </button>
+                    <div class="mobile-nav-submenu" id="mobile-nav-company" data-mobile-nav-items>
+                        <a class="mobile-nav-subitem" href="/about/">
+                            <span class="mobile-nav-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" focusable="false">
+                                    <path d="M6.5 17.5v-6.3L12 6.5l5.5 4.7v6.3H14v-4h-4v4z"></path>
+                                </svg>
+                            </span>
+                            <span>
+                                <strong>About Vepolink</strong>
+                                <small>Company</small>
+                            </span>
+                        </a>
+                    </div>
+                </section>
+
+                <div class="mobile-nav-actions">
+                    <a href="https://enviro.vepolink.com" target="_blank" rel="noopener noreferrer">Sign in</a>
+                    <a class="button button-dark" href="mailto:sales@vepolink.com">Book a walkthrough</a>
+                </div>
+            </nav>
+        </header>
+    </site-header>
+    <main class="stack-analyzer" id="multi-parameter-product-main">
+        <section class="mp-section mp-hero">
+            <div class="mp-shell mp-hero-grid">
+                <div class="mp-hero-copy mp-hero-copy--sensor">
+                    <p class="mp-eyebrow mp-hero-pill"><span aria-hidden="true"></span>Environmental Intelligence Gas
+                        Analyzer</p>
+                    <h1>Online in-situ flue and stack gas analyzer</h1>
+                    <p class="mp-hero-text">Stack gas analyzer designed for continuous monitoring of industrial
+                        emissions using NDIR and DOAS optical absorption technology.</p>
+                    <div class="mp-actions" aria-label="Product actions">
+                        <a class="button button-dark"
+                            href="mailto:sales@vepolink.com?subject=IoT%20Data%20Logger%20Configuration">Request
+                            configuration</a>
+                        <a class="button button-light" href="/assets/brochures/vepolink-IoT-Logger.pdf"
+                            download>Download
+                            data sheet</a>
+                    </div>
+                </div>
+                <div class="mp-instrument-panel" aria-label="In-situ sensor overview metrics">
+                    <figure class="mp-product-figure mp-product-figure--sensor">
+                        <img src="/assets/images/In-Situ-Flue-Stack-Gas-Analyzer.webp" width="500" height="500"
+                            alt="IoT Device direct-immersion water quality sensor" />
+                    </figure>
+                    <div class="mp-hero-specs">
+                        <div><strong>4 X relay</strong><span>Switch output</span></div>
+                        <div><strong>RS485</strong><span>Digital Output</span></div>
+                        <div><strong>NDIR</strong><span>Principle</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mp-metrics" aria-label="Key product metrics">
+            <div class="mp-shell mp-metric-grid">
+                <div><strong>10s</strong><span>Response Time</span></div>
+                <div><strong>200 Sec.</strong><span>Calibration Response</span></div>
+                <div><strong>450C</strong><span>Operating Temp</span></div>
+                <div><strong>45KG </strong><span>Weight</span></div>
+            </div>
+        </section>
+
+        <section class="mp-section mp-overview">
+            <div class="mp-shell mp-two-col">
+                <div>
+                    <p class="mp-eyebrow">Overview</p>
+                    <h2>Stack Gas <br /><span>Analyzer</span></h2>
+                </div>
+                <div class="mp-copy-stack">
+                    <p>The OMGA-2000 Flue Gas Analyzer is a highly integrated single-flange gas monitoring system
+                        designed for accurate online measurement of industrial stack and flue gases. It uses NDIR and
+                        DOAS gas absorption technologies to measure trace gas concentrations directly inside pipelines.
+                        The analyzer is suitable for applications including boiler flues, denitrification systems,
+                        exhaust monitoring and industrial emission monitoring.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mp-section IoT-technical">
+            <div class="mp-shell mp-two-col">
+                <div class="sticky">
+                    <p class="mp-eyebrow">Specifications</p>
+                    <h2>Technical <span>specifications.</span></h2>
+                    <figure class="mp-dimensions-card" aria-label="IoT sensor dimensions">
+                        <div id="insitu-dimensions-title" class="dim-title"><span>Stack Gas Analyzer</span>
+                            <div class="lin"></div>
+                        </div>
+                        <img src="/assets/images/In-Situ-Flue-Stack-Gas-Analyzer.webp" width="500" height="500"
+                            alt="IoT Device direct-immersion water quality sensor">
+                    </figure>
+                </div>
+                <div class="mp-spec-stack">
+                    <div class="mp-spec-table">
+                        <dl>
+                            <div>
+                                <dt>Principle</dt>
+                                <dd>NDIR</dd>
+                            </div>
+                            <div>
+                                <dt>Accuracy</dt>
+                                <dd>2% of measured value</dd>
+                            </div>
+                            <div>
+                                <dt>Repeatability</dt>
+                                <dd>±2% F.S.</dd>
+                            </div>
+                            <div>
+                                <dt>Zero Drift</dt>
+                                <dd>2% per month</dd>
+                            </div>
+                            <div>
+                                <dt>Span Drift</dt>
+                                <dd>2% per month</dd>
+                            </div>
+                            <div>
+                                <dt>Detector Response Time</dt>
+                                <dd>≤ 10 seconds</dd>
+                            </div>
+                            <div>
+                                <dt>Calibration Response Time</dt>
+                                <dd>200 seconds</dd>
+                            </div>
+                            <div>
+                                <dt>Operating Temperature</dt>
+                                <dd>Up to 450°C</dd>
+                            </div>
+                            <div>
+                                <dt>Calibration</dt>
+                                <dd>Manual & Automatic Zero and Span Calibration</dd>
+                            </div>
+                            <div>
+                                <dt>Probe Material</dt>
+                                <dd>SS316L</dd>
+                            </div>
+                            <div>
+                                <dt>Probe Length</dt>
+                                <dd>1.8 Meters</dd>
+                            </div>
+                            <div>
+                                <dt>Display</dt>
+                                <dd>Digital with Microcontroller</dd>
+                            </div>
+                            <div>
+                                <dt>Analyzer Body</dt>
+                                <dd>IP65 Dust Proof</dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="table_lay">
+                        <h3>Technical Data</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>S.N.</th>
+                                    <th>Gas</th>
+                                    <th>Range</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <td>CO</td>
+                                    <td>0-3000 ppm</td>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <td>CO2</td>
+                                    <td>0-25%</td>
+                                </tr>
+                                <tr>
+                                    <th>3</th>
+                                    <td>SO2</td>
+                                    <td>0-3000 ppm</td>
+                                </tr>
+                                <tr>
+                                    <th>4</th>
+                                    <td>NO2</td>
+                                    <td>0-1500 ppm</td>
+                                </tr>
+                                <tr>
+                                    <th>5</th>
+                                    <td>NOx</td>
+                                    <td>As configured</td>
+                                </tr>
+                                <tr>
+                                    <th>6</th>
+                                    <td>O2</td>
+                                    <td>As configured</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="mp-shell">
+
+            </div>
+        </section>
+
+        <section class="mp-section mp-features">
+            <div class="mp-shell mp-two-col">
+                <div>
+                    <p class="mp-eyebrow">Product features</p>
+                    <h2>Stack Gas Analyzer <span>features.</span></h2>
+                </div>
+                <ul class="mp-feature-list">
+                    <li>Single-flange design for easy installation</li>
+                    <li>Highly integrated gas monitoring system</li>
+                    <li>NDIR and DOAS optical absorption technology</li>
+                    <li>Easy-to-replace filter elements</li>
+                    <li>High-temperature flowmeter for flow monitoring</li>
+                    <li>High-temperature heat tracing throughout the gas path</li>
+                    <li>Automatic purge system to reduce dust and salt blockage</li>
+                    <li>Suitable for high-dust industrial environments</li>
+                    <li>Manual and automatic Zero and Span calibration</li>
+                    <li>Digital microcontroller-based display</li>
+                    <li>Strong adaptability to changing operating conditions</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mp-section mp-applications">
+            <div class="mp-shell">
+                <div class="mp-section-head">
+                    <div>
+                        <p class="mp-eyebrow">Applications</p>
+                        <h2>Where it <span>works.</span></h2>
+                    </div>
+                    <p>Real-time IoT monitoring provides reliable data collection, remote access, and seamless
+                        connectivity, helping industries stay connected and informed across environmental and industrial
+                        applications.</p>
+                </div>
+                <div class="mp-application-grid mp-application-grid--six">
+                    <div>Industrial emission monitoring</div>
+                    <div>Continuous emissions monitoring</div>
+                    <div>Boiler flue monitoring</div>
+                    <div>Denitrification systems</div>
+                    <div>Exhaust gas monitoring</div>
+                    <div>Power plants</div>
+                    <div>Cement plants</div>
+                    <div>Manufacturing industries</div>
+                    <div>Industrial process monitoring</div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="partners" id="partners" aria-labelledby="partners-title">
+            <div class="shell">
+                <p class="mono overline">features Stack Gas Analyzer</p>
+                <h2 id="partners-title" class="sr-only">Features Stack Gas Analyzer</h2>
+                <div class="partner-marquee" aria-label="IoT Data Logger features">
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span>Calibration Reports</span>
+                        <span>System Abnormality Reports</span>
+                        <span>Fault Reports</span>
+                        <span>SCADA Integration</span>
+                        <span>Industrial Automation</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mp-section mp-faq">
+            <div class="mp-shell">
+                <div class="mp-section-head">
+                    <div>
+                        <p class="mp-eyebrow">FAQ</p>
+                        <h2>Frequently asked <span>questions.</span></h2>
+                    </div>
+                </div>
+                <div class="mp-faq-grid">
+                    <article>
+                        <h3>What is the Vasthi Stack Gas Analyzer?</h3>
+                        <p>It is an online in-situ stack gas analyzer designed for continuous measurement of industrial
+                            flue and stack emissions.</p>
+                    </article>
+                    <article>
+                        <h3>Which gases can the Stack Gas Analyzer measure?</h3>
+                        <p>The analyzer can measure gases such as CO, CO2, SO2 and NO2, with additional gases such as
+                            NOx and O2 configurable according to application requirements.</p>
+                    </article>
+                    <article>
+                        <h3>How does the Stack Gas Analyzer work?</h3>
+                        <p>The system uses NDIR and DOAS optical absorption technologies to detect gas concentrations in
+                            the stack in real time.</p>
+                    </article>
+                    <article>
+                        <h3>Where is the In-Situ Stack Gas Analyzer used?</h3>
+                        <p>It is suitable for boiler flues, denitrification systems, exhaust stacks, power plants,
+                            cement plants and other industrial emission monitoring applications.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>What are the main features of this analyzer?</h3>
+                        <p>The analyzer provides high-temperature operation, digital display, single-flange
+                            installation, heat-traced gas paths, automatic purge and manual or automatic Zero and Span
+                            calibration.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="mp-section mp-cta">
+            <div class="mp-shell mp-cta-panel">
+                <p class="mp-eyebrow">Monitoring purity, directly in the process</p>
+                <h2>Measure continuously. <span>Maintain less.</span></h2>
+                <p>Tell us about your water matrix, target range and installation conditions. We will configure the
+                    optical path, cable length and measurement setup for your site.</p>
+                <div class="mp-cta-actions">
+                    <a class="button button-dark" href="mailto:sales@vepolink.com?subject=Stack gas analyzer">Request a
+                        configuration</a>
+                    <a class="button button-light" href="/assets/brochures/vepolink-Stack-gas-analyzer.pdf"
+                        download>Download
+                        data sheet</a>
+                    <a class="button button-light" href="tel:+919953886178">Talk to our engineers</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <site-footer>
+        <footer class="site-footer">
+            <div class="shell footer-grid">
+                <div class="footer-brand">
+                    <a class="brand" href="/" aria-label="Vepolink home">
+                        <img src="/assets/vepolink-logo-horizontal-trimmed.png" width="185" height="36" alt="Vepolink">
+                    </a>
+                    <p>Real-time data acquisition, monitoring and analytics for environmental compliance. Designed for
+                        industries that take environment seriously.</p>
+                </div>
+
+                <nav aria-label="Footer platform links">
+                    <h2>Platform</h2>
+                    <a href="/#platform">Environmental platform</a><a href="/water-quality-monitoring/">Water quality
+                        monitoring</a><a href="/stack-emission-monitoring/">Stack emission monitoring</a><a
+                        href="/ambient-air-monitoring/">Ambient air monitoring</a><a
+                        href="/indoor-air-monitoring/">Indoor air quality monitoring</a>
+                </nav>
+
+                <nav aria-label="Footer product links">
+                    <h2>Product</h2>
+                    <a href="/products/multi-paramater-online-water-analyzer/">Multi-Parameter Online Water Analyzer
+                        (Extractive)</a><a
+                        href="/products/multi-parameter-online-water-analyzer-in-situ/">Multi-Parameter Online Water
+                        Analyzer (In-situ)</a><a href="/products/ambient-so2-gas-analyzer/">Ambient SO2 Gas Analyzer (UV
+                        Fluorescence)</a><a href="/products/pm10-pm25-beta-attenuation-monitor/">PM10 &amp; PM2.5 Beta
+                        Attenuation Monitor</a><a
+                        href="/products/sensor-based-ambient-air-quality-monitor/">Sensor-Based Ambient Air Quality
+                        Monitor</a>
+                </nav>
+
+                <nav aria-label="Footer company links">
+                    <h2>Company</h2>
+                    <a href="/about/">About</a><a href="mailto:techsupport@vepolink.com">Careers</a><a
+                        href="mailto:sales@vepolink.com">Channel partners</a><a href="tel:+919810416132">Support</a><a
+                        href="mailto:techsupport@vepolink.com">Contact</a>
+                </nav>
+
+            </div>
+            <div class="shell footer-bottom">
+                <p class="mono">© 2026 Vepolink Technologies LLP · Monitoring purity</p>
+                <nav aria-label="Legal links">
+                    <a href="mailto:techsupport@vepolink.com">Privacy</a>
+                    <a href="mailto:techsupport@vepolink.com">Terms</a>
+                    <a href="mailto:techsupport@vepolink.com">Security</a>
+                    <a href="mailto:techsupport@vepolink.com">SLA</a>
+                    <a href="mailto:techsupport@vepolink.com">Data residency</a>
+                </nav>
+            </div>
+        </footer>
+    </site-footer>
+    </div>
+</body>
+
+</html>

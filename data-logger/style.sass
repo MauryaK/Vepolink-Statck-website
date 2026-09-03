@@ -1,0 +1,1099 @@
+
+@function get-height($index)
+    $start-height: 25px
+    $decrease: 5px
+    @return $start-height - (($index - 1) * $decrease)
+
+@function get-rotate($index)
+    $start-point: -90deg
+    $decrease: 15deg
+    @return $start-point + (($index - 1) * $decrease)
+
+@mixin Responsive($screen)
+    @media screen and (max-width: $screen)
+        @content
+
+.graph-iot-analog
+    position: relative
+    display: flex
+    align-items: center
+    height: 100%
+    width: 100%
+    gap: 10px
+    margin-bottom: 40px
+    @include Responsive(767px)
+        max-width: 340px
+
+    .plani-text
+        position: absolute
+        white-space: nowrap
+        font-size: 12px
+        top: 100%
+        text-align: center
+        font-weight: 500
+        transform: translateY(10px)
+        @include Responsive(767px)
+            white-space: normal
+    .circule
+        width: 55px
+        height: 55px
+        position: relative
+        border: 2px solid var(--cyan)
+        border-radius: 55px
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        @include Responsive(767px)
+            --size: 31px
+            height: var(--size)
+            width: var(--size)
+            aspect-ratio: 1/1
+        .sm
+            display: block
+            width: calc( 55px / 3)
+            height: calc( 55px / 3)
+            border: 2px solid var(--ink-3)
+            border-radius: 55px
+            @include Responsive(767px)
+                --size: 6px
+                height: var(--size)
+                width: var(--size)
+                aspect-ratio: 1/1
+            // background: var(--cyan)
+    .arrow
+        width: 80px
+        height: 2px
+        // background: var(--ink-3)
+        position: relative
+        background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+        background-size: 12px 3px, 100% 3px
+        animation: bgani 10s linear infinite reverse
+        @include Responsive(767px)
+            max-width: 45px
+            width: 100%
+        &::after
+            content: ""
+            position: absolute
+            right: 0px
+            top: -3px
+            width: 0px
+            height: 0px
+            border-top: 12px solid var(--cyan)
+            border-right: 7px solid transparent
+            border-left: 7px solid transparent
+            transform: rotate(30deg)
+    .dataloger
+        width: 120px
+        height: 55px
+        border: 2px solid var(--muted)
+        border-radius: 5px
+        position: relative
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        .plani-text
+            transform: translateY(20px)
+        .data-log-info
+            width: 75px
+            height: 42px
+            border-radius: 3px
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            background: linear-gradient(45deg, #75ecff, var(--cyan), #338693)
+            border: inset 1px var(--cyan)
+            .text
+                display: block
+                text-align: center
+                line-height: 1.2
+                font-size: 12px
+                font-weight: 500
+                text-transform: uppercase
+                color: var(--ink-3)
+
+        .anteena
+            position: absolute
+            right: 10px
+            width: 6px
+            height: 45px
+            background: var(--ink-3)
+            bottom: 100%
+            transform: translateY(-2px)
+            border-top-left-radius: 5px
+            border-top-right-radius: 5px
+            &::before
+                content: ""
+                position: absolute
+                bottom: 0
+                height: 8px
+                width: 10px
+                left: 50%
+                transform: translateX(-50%)
+                background: var(--ink-3)
+                border-top-left-radius: 2px
+                border-top-right-radius: 2px
+        .data-line
+            position: absolute
+            bottom: 100%
+            transform: translateY(-2px)
+            border-top-left-radius: 5px
+            border-top-right-radius: 5px
+            width: 4px
+            height: 10px
+            background: var(--ink-3)
+            border: 1px solid var(--ink-3)
+            &.a
+                left: 8px
+            &.b
+                left: 16px
+            &.c
+                bottom: auto
+                top: 100%
+                width: 6px
+                left: 10px
+                transform: translateY(1px)
+                border-radius: 0
+                border-bottom-left-radius: 5px
+                border-bottom-right-radius: 5px
+        .data-jack-cover
+            position: absolute
+            top: 100%
+            width: 50px
+            height: 10px
+            left: auto
+            right: 10px
+            transform: translateY(1.5px)
+            border-radius: 0
+            background: #539453
+            border-bottom-left-radius: 2px
+            border-bottom-right-radius: 2px
+            display: flex
+            align-items: center
+            justify-content: space-around
+            padding: 0 3px
+            gap: 0px
+            .jack
+                width: 5px
+                height: 5px
+                background: #ffffff
+                border-radius: 52px
+                border: 1px solid var(--ink-2)
+
+        .dat-lo
+            position: absolute
+            width: 12px
+            height: 25px
+            border: 2px solid var(--line)
+            top: 50%
+            transform: translateY(-50%)
+            // background: var(--line-2)
+            background: transparent
+            animation: blink 2s ease-in-out infinite
+            &.a
+                border-left: 0px solid transparent
+                left: 0
+                border-top-right-radius: 3px
+                border-bottom-right-radius: 3px
+            &.b
+                right: 0
+                border-right: 0
+                border-top-left-radius: 3px
+                border-bottom-left-radius: 3px
+                animation-delay: 1s
+    .cloDash
+        display: flex
+        max-width: 280px
+        width: 100%
+        height: 100px
+        align-items: center
+        justify-content: center
+        .das-arrow
+            max-width: 68px
+            width: 100%
+            position: relative
+            height: 2px
+            background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+            background-size: 12px 3px, 100% 3px
+            animation: bgani 10s linear infinite reverse
+            &::after
+                content: ""
+                position: absolute
+                right: 0px
+                top: -3px
+                width: 0px
+                height: 0px
+                border-top: 12px solid var(--cyan)
+                border-right: 7px solid transparent
+                border-left: 7px solid transparent
+                transform: rotate(30deg)
+        .dasInverct
+            flex: 1
+            .sysSc
+                width: 100%
+                margin: 0 auto
+                aspect-ratio: 2 / 1.2
+                border-radius: 4px
+                position: relative
+                padding: 5px
+                background: linear-gradient(11deg, black, #d0d0d0, black)
+                .scren
+                    width: 100%
+                    height: 100%
+                    border-radius: 3px
+                    margin: 0 auto
+                    overflow: hidden
+                    position: relative
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+                    background: #e3fbff
+                    .dis
+                        height: calc(100% / 1.1)
+                        width: calc(100% / 1.1)
+                        background: var(--card)
+                        display: flex
+                        flex-wrap: nowrap
+                        .sclef
+                            flex: 1
+                            padding: 8px
+                        .scright
+                            width: calc( 100% / 3 )
+                            padding: 6px
+                            .piCar
+                                display: block
+                                width: 30px
+                                height: 30px
+                                border: 2px solid var(--ink-2)
+                                border-radius: 30px
+                                background: #bae0ff
+                                .poi
+                                    position: absolute
+                                    width: 10px
+                                    height: 10px
+                                    border: 15px solid transparent
+                                    border-top-color: var(--cyan)
+                                    border-radius: 14px
+                            .data-bat
+                                display: flex
+                                flex-direction: row
+                                gap: 2px
+                                align-items: flex-end
+                                .bat
+                                    width: 5px
+                                    background: var(--line)
+                                    @for $i from 1 through 10
+                                        &:nth-child(#{$i})
+                                            height: get-height($i)
+
+        .grpj
+            width: 100%
+            height: 100%
+            border-left: 3px solid var(--line)
+            border-bottom: 3px solid var(--line)
+            padding-left: 5px
+            padding-bottom: 5px
+            position: relative
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+
+            .li1
+                width: 100%
+                height: 2px
+                background-color: var(--line)
+        .leg
+            width: calc(100% / 8)
+            height: 24px
+            position: absolute
+            top: 100%
+            left: 50%
+            transform: translateX(-50%)
+            border: 2px solid var(--ink-3)
+            background: linear-gradient(0deg, black, #ffffff, black)
+            border-top: 0
+            &::after
+                content: ""
+                position: absolute
+                bottom: -2px
+                left: 50%
+                height: 6px
+                background: linear-gradient(134deg, black, #ffffff, black)
+                width: 80px
+                transform: translateX(-50%)
+                border-radius: 10px
+    .scadText
+        width: 100%
+        max-width: 130px
+        padding: 8px
+        background: #e6fff2
+        text-align: center
+        font-size: 14px
+        font-weight: 600
+        border-radius: 5px
+        border: 2px solid var(--ok)
+        color: #15814c
+#multi-parameter-product-main
+    .mp-principle-diagram
+        .graph-iot-analog
+            .grpj
+                svg
+                    width: auto
+                    height: 42px
+                    path
+                        stroke: var(--cyan)
+                        fill: var(--card)
+                        stroke-width: 1px
+
+            .mob-arr
+                display: block
+                max-width: 220px
+                width: 100%
+                height: 102px
+                position: relative
+                @include Responsive(767px)
+                    max-width: 70px
+                .dott
+                    position: absolute
+                    &.top
+                        right: 0
+                        top: 0
+                        width: calc( 100% / 2 )
+                        height: calc( 100% / 2 )
+                        &::before
+                            content: ""
+                            position: absolute
+                            top: 0
+                            left: 0
+                            width: 100%
+                            height: 2px
+                            background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 12px 3px, 100% 3px
+                            animation: bgani 10s linear infinite reverse
+                        &::after
+                            content: ""
+                            position: absolute
+                            top: 0
+                            bottom: 0
+                            left: 0
+                            width: 2px
+                            height: 100%
+                            background: linear-gradient(344deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 20px 12px, 100% 3px
+                            animation: bganiB 10s linear infinite forwards
+                        .domn
+                            position: absolute
+                            width: 12px
+                            height: 12px
+                            background: #fff
+                            border-radius: 15px
+                            bottom: -7px
+                            left: -5px
+                            border: 2px solid var(--cyan)
+                            z-index: 1
+                            animation: pulBim 1.8s ease-out infinite
+                    &.bottom
+                        right: 0
+                        bottom: 0
+                        width: calc( 100% / 2 )
+                        height: calc( 100% / 2 )
+                        &::before
+                            content: ""
+                            position: absolute
+                            bottom: 0
+                            left: 0
+                            width: 100%
+                            height: 2px
+                            background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 12px 3px, 100% 3px
+                            animation: bgani 10s linear infinite reverse
+                        &::after
+                            content: ""
+                            position: absolute
+                            top: 0
+                            bottom: 0
+                            left: 0
+                            width: 2px
+                            height: 100%
+                            background: linear-gradient(344deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 20px 12px, 100% 3px
+                            animation: bganiB 10s linear infinite reverse
+                    &.center
+                        top: 50%
+                        left: 0
+                        height: 2px
+                        width: 100%
+                        background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                        background-size: 12px 3px, 100% 3px
+                        animation: bgani 10s linear infinite reverse
+            .mob-icon
+                display: flex
+                flex-direction: column
+                gap: 20px
+                .mov-icon
+                    display: flex
+                    flex-wrap: nowrap
+                    gap: 12px
+                    align-items: center
+                    font-size: 12px
+                    font-weight: 500
+                    .icn
+                        svg
+                            display: block
+                            width: auto
+                            height: 32px
+                            path
+                                stroke-width: 0px
+                                fill: var(--ink-3)
+                    .modbox
+                        width: 65px
+                        height: 21px
+                        background: var(--cyan)
+                        border: 2px solid var(--ink-3)
+                        border-radius: 2px
+                        padding: 0 5px
+                        display: flex
+                        flex-wrap: wrap
+                        align-items: center
+                        justify-content: center
+                        gap: 0 4px
+                        .dot
+                            width: 4px
+                            height: 4px
+                            background: #fff
+                            border-radius: 5px
+
+        .cloude
+            .plani-text
+                transform: translateY(0px)
+            svg
+                width: auto
+                height: 100px
+                @include Responsive(767px)
+                    height: auto
+                    width: 65px
+                    display: block
+                    margin: 0 auto
+                path
+                    stroke-width: 6
+                    stroke: var(--cyan)
+            .bell
+                width: 60px
+                height: 60px
+                // border: 2px solid var(--alert)
+                border: 2px solid #ff8573
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                border-radius: 8px
+                svg
+                    height: 40px
+                    @include Responsive(767px)
+                        width: auto
+                        height: 25px
+                    path
+                        fill: var(--alert)
+                        animation: heli 1000ms ease-in-out 0s infinite forwards
+        .info-graph
+            display: flex
+            align-items: center
+            gap: 8px
+            @include Responsive(767px)
+                max-width: 130px
+            .infoliicon
+                display: flex
+                flex-direction: column
+                gap: 12px
+                .cin
+                    width: 45px
+                    height: 45px
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    justify-content: center
+                    border: 2px solid var(--cyan)
+                    border-radius: 6px
+
+                    svg
+                        display: block
+                        height: 30px
+
+                    &.a
+                        svg
+                            path
+                                fill: var(--cyan)
+                    &.b
+                        svg
+                            path
+                                &.st0
+                                    fill: var(--cyan)
+                                    stroke: transparent
+                                &.st1
+                                    fill: var(--card)
+                                    stroke: transparent
+                    &.c
+                        svg
+                            path
+                                fill: var(--cyan)
+                                &[fill="red"]
+                                    fill: #c94d3b
+            .arrowLisnb
+                display: block
+                width: 220px
+                height: 118px
+                position: relative
+                @include Responsive(767px)
+                    width: 48px
+                    height: 116px
+                .aaro
+                    position: absolute
+                    &.a
+                        left: 0
+                        top: 0
+                        width: 50%
+                        height: 50%
+                        &::before
+                            content: ""
+                            position: absolute
+                            top: 0
+                            left: 0
+                            width: 100%
+                            height: 2px
+                            background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 12px 3px, 100% 3px
+                            animation: bgani 10s linear infinite reverse
+                        &::after
+                            content: ""
+                            position: absolute
+                            top: 0
+                            bottom: 0
+                            right: 0
+                            width: 2px
+                            height: 100%
+                            background: linear-gradient(344deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 20px 12px, 100% 3px
+                            animation: bganiB 10s linear infinite reverse
+                        .domn
+                            position: absolute
+                            width: 15px
+                            height: 15px
+                            bottom: -7px
+                            right: -5px
+                            z-index: 1
+                            background: linear-gradient(270deg, #ffffff, #ffffff, #ffffff, #ffffff00)
+                            // border: dashed 2px var(--cyan)
+                            // border-spacing: 0
+                            // border-width: 2px
+                            // border-top-color: transparent
+                            // border-left-color: transparent
+                            rotate: 45deg
+                            &::before
+                                content: ""
+                                position: absolute
+                                top: 0
+                                left: 3px
+                                right: 0
+                                height: 1.5px
+                                background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                                background-size: 12px 3px, 100% 3px
+                                animation: bgani 10s linear infinite reverse
+                            &::after
+                                content: ""
+                                position: absolute
+                                bottom: 0
+                                left: 3px
+                                right: 0
+                                height: 1.5px
+                                background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                                background-size: 12px 3px, 100% 3px
+                                animation: bgani 10s linear infinite
+                                transform-origin: bottom right
+                                transform: rotate(85deg)
+                    &.b
+                        transform: translateY(-50%)
+                        top: 50%
+                        left: 0
+                        height: 2px
+                        width: 100%
+                        background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                        background-size: 12px 3px, 100% 3px
+                        animation: bgani 10s linear infinite reverse
+                        &::after
+                            content: ""
+                            position: absolute
+                            right: 0px
+                            top: -3px
+                            width: 0px
+                            height: 0px
+                            border-top: 12px solid var(--cyan)
+                            border-right: 7px solid transparent
+                            border-left: 7px solid transparent
+                            transform: rotate(30deg)
+                    &.c
+                        left: 0
+                        bottom: 0
+                        width: 50%
+                        height: 50%
+                        &::before
+                            content: ""
+                            position: absolute
+                            bottom: 0
+                            left: 0
+                            width: 100%
+                            height: 2px
+                            background: linear-gradient(90deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 12px 3px, 100% 3px
+                            animation: bgani 10s linear infinite reverse
+                        &::after
+                            content: ""
+                            position: absolute
+                            top: 0
+                            bottom: 0
+                            right: 0
+                            width: 2px
+                            height: 100%
+                            background: linear-gradient(344deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 20px 12px, 100% 3px
+                            animation: bganiB 10s linear infinite forwards
+        .cir
+            position: absolute
+            width: 8px
+            height: 8px
+            background: var(--cyan)
+            border-radius: 10px
+            &.top-left
+                top: -4px
+            &.top-right
+                right: 0
+                left: auto
+                top: -4px
+            &.bottom-left
+                bottom: -3px
+            &.bottom-right
+                right: 0
+                bottom: -3px
+
+@keyframes bgani
+    100%
+        background-position: -360px 0
+@keyframes bganiB
+    100%
+        background-position: 0 -360px
+@keyframes pulBim
+    0%
+        box-shadow: 0 0 0 0 #3cc9df70
+
+    100%
+        box-shadow: 0 0 0 10px #3cc9df0c
+@keyframes blink
+    0%
+        border-color: var(--line-2)
+        background: var(--line-2)
+    50%
+        border-color: var(--cyan)
+        background: var(--cyan)
+    100%
+        border-color: var(--line-2)
+        background: var(--line-2)
+
+section.IoT-technical
+    .mp-shell
+        figure.mp-dimensions-card
+            .dim-title
+                position: relative
+                font-weight: 500
+                display: flex
+                align-items: center
+                gap: 11px
+                justify-content: center
+                margin-bottom: 1.2em
+                span
+                    text-transform: uppercase
+                .lin
+                    flex: 1
+                    height: 1px
+                    background: var(--line-2)
+
+            img
+                display: block
+                min-height: 250px
+                width: auto
+                height: auto
+                max-height: 300px
+                margin: 0 auto
+
+@keyframes heli
+    0%
+        fill: var(--alert)
+    50%
+        fill: #ff4c32
+    100%
+        fill: var(--alert)
+
+@keyframes ani_metA
+    0%
+        transform: rotate(0deg)
+        fill: var(--cyan)
+    25%
+        transform: rotate(12deg)
+        fill: var(--alert)
+    35%
+        transform: rotate(8deg)
+        fill: var(--cyan)
+    45%
+        transform: rotate(13deg)
+        fill: var(--red)
+    50%
+        transform: rotate(0deg)
+        fill: var(--cyan)
+    75%
+        transform: rotate(-12deg)
+        fill: var(--cyan)
+    85%
+        transform: rotate(-4deg)
+        fill: var(--cyan)
+    95%
+        transform: rotate(-9deg)
+        fill: var(--cyan)
+    100%
+        transform: rotate(0deg)
+        fill: var(--cyan)
+
+.ani_met
+    transform-origin: bottom center
+    animation: ani_metA 10s ease-in-out 0s infinite
+    transform-style: preserve-3d
+    transform: rotate(45deg)
+
+@keyframes blinkCir
+    0%
+        background: var(--cyan)
+        border-color: var(--cyan)
+    50%
+        background: var(--card)
+        border-color: var(--ink)
+    100%
+        background: var(--cyan)
+        border-color: var(--cyan)
+
+.blinkCir
+    animation: blinkCir 1000ms ease-in-out 0s infinite forwards
+
+.mp-section
+    &.iot-app-section
+        background: var(--card)
+        .mp-principle-grid
+            .conenctSect
+                .circuleL
+                    --size: 350px
+                    position: relative
+                    width: var(--size)
+                    height: var(--size)
+                    border-radius: 50%
+
+                    .txt
+                        position: absolute
+                        top: 50%
+                        left: 50%
+                        height: calc(var(--size) / 1)
+                        transform: translate(-50%, -50%)
+                        // --radius: calc(var(--size) / 2)
+                        @for $i from 1 through 7
+                            &:nth-child(#{$i})
+                                transform: translate(-50%, -50%) rotate(45deg) rotate(calc((360deg / 7) * (#{$i} - 1)))
+                        &::before
+                            content: ""
+                            position: absolute
+                            width: 2px
+                            height: 42%
+                            left: 50%
+                            transform: translateX(-50%)
+                            top: 33px
+                            background: linear-gradient(344deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                            background-size: 20px 12px, 100% 3px
+                            animation: bganiB 10s linear infinite reverse
+                        &::after
+                            content: ""
+                            position: absolute
+                            width: 8px
+                            height: 8px
+                            background: var(--cyan)
+                            border-radius: 15px
+                            left: 50%
+                            top: 26px
+                            transform: translateX(-50%)
+
+                    .center
+                        position: absolute
+                        top: 50%
+                        left: 50%
+                        width: 55px
+                        height: 55px
+                        border-radius: 50%
+                        background: var(--cyan)
+                        transform: translate(-50%, -50%)
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        font-weight: 500
+                        color: var(--card)
+                        animation: IotPuls 1.8s ease-out infinite
+            .commu-box
+                display: block
+
+@keyframes IotPuls
+    0%
+        box-shadow: 0 0 0 0 #3cc8df66
+
+    100%
+        box-shadow: 0 0 0 10px #3cc8df12
+
+#multi-parameter-product-main .mp-principle-diagram.dashCard-aler
+    .graph-iot-analog
+        @include Responsive(767px)
+            flex-wrap: wrap
+            justify-content: center
+            margin: 2.5em 0 0
+            gap: 25px 0
+        .dataloger
+            .plani-text
+                @include Responsive(767px)
+                    display: none
+        .cloDash
+            @include Responsive(767px)
+                flex-direction: column
+                height: auto
+            .das-arrow
+                @include Responsive(767px)
+                    width: 2px
+                    height: 45px
+                    background: linear-gradient(344deg, transparent, transparent 50%, var(--cyan) 48%, var(--cyan) 100%)
+                    background-size: 20px 12px, 100% 3px
+                    animation: bganiB 10s linear infinite reverse
+                &::after
+                    @include Responsive(767px)
+                        border-right: 12px solid var(--cyan)
+                        border-top: 7px solid transparent
+                        border-bottom: 7px solid transparent
+                        transform: rotate(28deg)
+                        top: auto
+                        bottom: 0
+                        right: -4px
+                .cir.top-left
+                    @include Responsive(767px)
+                        top: -4px
+                        left: 50%
+                        transform: translateX(-50%)
+
+            .dasInverct
+                @include Responsive(767px)
+                    flex: auto
+                    height: 108px
+                    padding: 2px 0
+.shell.nav-shell
+    position: static
+    .nav-dropdown
+        position: static
+        .nav-trigger
+            span
+                color: var(--muted)
+                font-size: 14px
+                transform: translateY(0px)
+
+        &::after
+            display: none
+        .nav-menu
+            display: none
+        &:hover
+            button.nav-link
+                color: var(--cyan)
+                span
+                    color: var(--cyan)
+            .nav-mega-menu
+                transform: translateY(0px)
+                opacity: 1
+                pointer-events: all
+    .nav-mega-menu
+        position: absolute
+        left: 0
+        right: 0
+        top: calc(100% - 15px)
+        height: calc( 100vh - 66.8px )
+        transform: translateY(20px)
+        opacity: 0
+        pointer-events: none
+        transition: .650ms ease
+        padding-top: 15px
+        .nav-bg
+            width: 100%
+            height: 100%
+            padding: 15px
+            background: var(--card)
+            border-top: 1px solid var(--line-2)
+            .nav-mega-menu-column
+                height: 100%
+        .card
+            padding: 0 8px
+            .nav-header
+                .nav-grid
+                    display: grid
+                    grid-template-columns: repeat(5, 1fr)
+                    grid-template-rows: repeat(1, 1fr)
+                    gap: 0 10px
+                    .nav-btn
+                        div
+                            pointer-events: none
+                            user-select: none
+                    > div
+                        border-bottom: 1px solid var(--line-2)
+                        padding: 14px 0px
+                        transition: .5s ease
+                        background: var(--card)
+                        border-radius: 0px
+                        cursor: pointer
+                        &:hover
+                            border-radius: 8px
+                            background: linear-gradient(94deg, var(--line), var(--line-2))
+                            padding: 14px 10px
+                        &.active
+                            border-radius: 8px
+                            background: radial-gradient(circle at 78% 12%, rgba(60, 200, 223, 0.28), transparent 34%), var(--ink)
+                            padding: 14px 10px
+                            .nav-title,.nav-subtitle
+                                color: var(--card)
+                .nav-title
+                    display: block
+                    color: var(--ink)
+                    font-size: 14px
+                .nav-subtitle
+                    font-size: 13px
+                    // margin: 2px 0px 0px
+                    color: var(--muted)
+                    line-height: 1.55
+                    text-transform: capitalize
+                    // padding-bottom: 10px
+
+                .nav-list
+                    margin-top: 15px
+                    width: 100%
+                    overflow: hidden
+                    .oveflo
+                        width: calc(1480px * 5)
+                        display: grid
+                        grid-template-columns: repeat(5, 1fr)
+                        grid-template-rows: repeat(1, 1fr)
+                        transition: 1.5s cubic-bezier(0.22, 0.61, 0.36, 1)
+
+                    .list-grid
+                        display: grid
+                        grid-template-columns: repeat(8, 1fr)
+                        grid-template-rows: repeat(1, 1fr)
+                        // display: none
+                        opacity: 0
+                        transition: .7s ease
+                        &.active
+                            display: grid
+                            opacity: 1
+                            .grid
+                                .list-item
+                                    a
+                                        .icon, .list-item-title, .list-item-subtitle
+                                            transform: translateX(0px)
+                                            opacity: 1
+
+                    .grid
+                        display: grid
+                        grid-template-columns: repeat(3, 1fr)
+                        grid-template-rows: repeat(5, 1fr)
+                        width: 100%
+                        grid-column: span 6 / span 6
+                        gap: 5px 15px
+                    .list-item
+                        a
+                            display: grid
+                            grid-template-columns: 60px 1fr
+                            grid-template-rows: repeat(2, auto)
+                            column-gap: 15px
+                            padding: 10px 0
+
+                        @for $i from 1 through 15
+                            &:nth-child(#{$i})
+                                .icon
+                                    transition-delay: calc(#{$i} * .10s)
+                                .list-item-title
+                                    transition-delay: calc(#{$i} * .13s)
+                                .list-item-subtitle
+                                    transition-delay: calc(#{$i} * .16s)
+
+                        .icon
+                            grid-row: 1 / 3
+                            grid-column: 1 / 2
+                            border: 1px solid var(--line-2)
+                            border-radius: 3px
+                            width: auto
+                            height: auto
+                            transform: translateY(60px)
+                            opacity: 0
+                            transition: .6s ease-in-out
+                            svg
+                                --size: 47px
+                                width: var(--size)
+                                height: var(--size)
+                                stroke-width: 0.5
+                                stroke: var(--ink)
+                        .list-item-title
+                            display: block
+                            color: var(--ink)
+                            font-size: 14px
+                            transform: translateY(60px)
+                            opacity: 0
+                            transition: .6s ease-in
+                        .list-item-subtitle
+                            font-size: 13px
+                            margin: 2px 0px 0px
+                            color: var(--muted)
+                            line-height: 1.3
+                            font-weight: normal
+                            max-width: 290px
+                            min-height: 33.8px
+                            max-width: 230px
+                            transform: translateY(60px)
+                            opacity: 0
+                            transition: .6s ease-in-out
+                    .figure
+                        grid-column: span 2 / span 2
+                        padding: 0 15px 10px 0
+                        img
+                            max-width: 100%
+                            border-radius: 8px
+                            box-shadow: 9px 9px 0px #093e91
+                    .more-link
+                        margin-top: 15px
+                        padding-bottom: 15px
+                        // border-bottom: 1px solid var(--line-2)
+                        text-align: center
+                        display: flex
+                        // grid-column: span 8 / span 8
+                        a
+                            display: inline-flex
+                            align-items: center
+                            gap: 6px
+                            font-size: 14px
+                            color: var(--ink)
+                            font-weight: 500
+                            text-decoration: none
+                            span
+                                color: var(--ink)
+                                font-size: 24px
+                                line-height: 1
+                                flex: 0 0 auto
+.primary-nav
+    button
+        padding: 20px 6px
+        @include Responsive(767px)
+            padding: 5px 6px
