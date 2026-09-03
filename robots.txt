@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+no-index:/
+no-follow:/
+Sitemap: https://www.vepolink.com/sitemap.xml
+
+Sitemap: https://www.vepolink.com/sitemap-index.xml

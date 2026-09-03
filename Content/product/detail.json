@@ -1,0 +1,2873 @@
+[
+    {
+        "id": 1,
+        "slug": "water-analyzer",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/prod_1.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "Online Water analyzer",
+                "sort_dec": "This device offers versatility for a wide range of applications also, the user-friendly interface enables user to pick any 7 parameters of choice to be added in this modular analyser.",
+                "features": [
+                    "User Friendly Interface",
+                    "Multiplexing System",
+                    "Automatic Cleaning",
+                    "Up to 6 different streams",
+                    "Touch screen",
+                    "CE, EN 61010-1, EN 61326, IP66, IP68"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "Online Water analyzer",
+                "sub_heading": "Aqualog series are on-line water analyser based on a <span class='serif-i grad-text'>high resolution UV-visible </span>spectrograph.",
+                "decription": [
+                    "The Optic 1000 Multi Parameters is a high-performance online water analyser that provides accurate and reliable measurements upto 7 parameters for a wide range of water quality parameters such as Ammonium, Nitrates, Nitrites, Total Nitrogen, Phosphates, Total Phosphates, Organic Matter [COD, BOD, TSS], Total Organic Carbon, Sulfides, Sulfites, Total Sulfur, Total Suspended Solids, Turbidity, Color, Chlorine, Chlorine Dioxide, Hydrocarbon, Aromatic Compounds, Phenol, Dissolved Oxygen, Conductivity, Ozone and pH. Designed with state-of-the-art optical technology, it ensures exceptional stability, low operating costs, and high precision for various industries, including wastewater treatment plants and river monitoring stations. This device offers versatility for a wide range of applications also, the user-friendly interface enables user to pick any 7 parameters of choice to be added in this modular analyser.",
+                    "The Optic 1000 Multi Parameters is a high-performance online water analyser that provides accurate and reliable measurements upto 7 parameters for a wide range of water quality parameters such as Ammonium, Nitrates, Nitrites, Total Nitrogen, Phosphates, Total Phosphates, Organic Matter [COD, BOD, TSS], Total Organic Carbon, Sulfides, Sulfites, Total Sulfur, Total Suspended Solids, Turbidity, Color, Chlorine, Chlorine Dioxide, Hydrocarbon, Aromatic Compounds, Phenol, Dissolved Oxygen, Conductivity, Ozone and pH. Designed with state-of-the-art optical technology, it ensures exceptional stability, low operating costs, and high precision for various industries, including wastewater treatment plants and river monitoring stations. This device offers versatility for a wide range of applications also, the user-friendly interface enables user to pick any 7 parameters of choice to be added in this modular analyser."
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Specifications",
+                "tagline": "Online Water analyzer",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "desc": "Would you like a robust data base to help you better understand your process over time and under specific conditions? Do you want to review your plant’s processes, identify opportunities for improvement and make fact-based operational decisions? Vepolink is your tool.",
+                "table": [
+                    {
+                        "items": "Display",
+                        "list": [
+                            "7-inch touch screen, simple operation interface"
+                        ]
+                    },
+                    {
+                        "items": "Power supply",
+                        "list": [
+                            "AC power supply: 85-500 VAC or DC power supply: 9-36 VDC"
+                        ]
+                    },
+                    {
+                        "items": "Outputs",
+                        "list": [
+                            "4-20mA analog output (optional)"
+                        ]
+                    },
+                    {
+                        "items": "Relays",
+                        "list": [
+                            "A relay, programmable response parameters and response values"
+                        ]
+                    },
+                    {
+                        "items": "Communication protocol",
+                        "list": [
+                            "MODBUS RS485 communication function is equipped as standard, whichcantransmitthemeasured value in real time."
+                        ]
+                    },
+                    {
+                        "items": "Fittings",
+                        "list": [
+                            " Inlet: straight through to hard pipe ∅ 8",
+                            "Outlet: straight through to hard pipe ∅ 12"
+                        ]
+                    },
+                    {
+                        "items": "Storage temperature",
+                        "list": [
+                            "0-45°C"
+                        ]
+                    },
+                    {
+                        "items": "Operating temperature",
+                        "list": [
+                            "0-50°C"
+                        ]
+                    },
+                    {
+                        "items": "Enclosure rating",
+                        "list": [
+                            "IP 65"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions",
+                        "list": "350*270*550 mm (L*W*H)"
+                    }
+                ]
+            },
+            {
+                "list": "Enclosure",
+                "tagline": "Online Water analyzer",
+                "heading": "Enclosure",
+                "desc": "Would you like a robust data base to help you better understand your process over time and under specific conditions? Do you want to review your plant’s processes, identify opportunities for improvement and make fact-based operational decisions? Vepolink is your tool.",
+                "table": [
+                    {
+                        "items": "Type",
+                        "list": [
+                            "Wall Mounted / Set / Portable (Optional handles)"
+                        ]
+                    },
+                    {
+                        "items": "Material",
+                        "list": [
+                            "SS316L"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions (HxWxD)",
+                        "list": [
+                            "450x350x200 mm"
+                        ]
+                    },
+                    {
+                        "items": "Weight",
+                        "list": [
+                            " ± 15 kg"
+                        ]
+                    },
+                    {
+                        "items": "Protection class",
+                        "list": [
+                            "IP65"
+                        ]
+                    },
+                    {
+                        "items": "Area Classification",
+                        "list": [
+                            " Safe, Zone 1 or 2  (Available on request"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Sample Condition",
+                "tagline": "Online Water analyzer",
+                "heading": "Sample <span class='serif-i'>Condition</span>",
+                "desc": "Would you like a robust data base to help you better understand your process over time and under specific conditions? Do you want to review your plant’s processes, identify opportunities for improvement and make fact-based operational decisions? Vepolink is your tool.",
+                "table": [
+                    {
+                        "items": "Flow",
+                        "list": [
+                            "0.2 L/min"
+                        ]
+                    },
+                    {
+                        "items": "Pressure",
+                        "list": [
+                            " < 2 bars"
+                        ]
+                    },
+                    {
+                        "items": "Temperature",
+                        "list": [
+                            "0... 50°C"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Controller",
+                "tagline": "Online Water analyzer",
+                "heading": "Controller",
+                "desc": "Would you like a robust data base to help you better understand your process over time and under specific conditions? Do you want to review your plant’s processes, identify opportunities for improvement and make fact-based operational decisions? Vepolink is your tool.",
+                "table": [
+                    {
+                        "items": "Display",
+                        "list": [
+                            "8.5’’ TFT colour screen 16/9 (LED backlight"
+                        ]
+                    },
+                    {
+                        "items": "Resolution",
+                        "list": [
+                            "800 x 480 px"
+                        ]
+                    },
+                    {
+                        "items": "Touch screen",
+                        "list": [
+                            "Glass to glass"
+                        ]
+                    },
+                    {
+                        "items": "Memory",
+                        "list": [
+                            "16 GB SD card"
+                        ]
+                    },
+                    {
+                        "items": "Data transfer",
+                        "list": [
+                            "USB type A"
+                        ]
+                    },
+                    {
+                        "items": "Operating temperature",
+                        "list": [
+                            " 0... 50°C"
+                        ]
+                    },
+                    {
+                        "items": "Operating humidity",
+                        "list": [
+                            "< 90 % RH"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Communication Output",
+                "tagline": "Online Water analyzer",
+                "heading": "Communication <br /><span class='serif-i'>Output</span>",
+                "desc": "Would you like a robust data base to help you better understand your process over time and under specific conditions? Do you want to review your plant’s processes, identify opportunities for improvement and make fact-based operational decisions? Vepolink is your tool.",
+                "table": [
+                    {
+                        "items": "Analog",
+                        "list": [
+                            "4-20 mA isolated (Active or Passive) / 500 Ω max"
+                        ]
+                    },
+                    {
+                        "items": "Relay",
+                        "list": [
+                            "Programmable limit or fault alarms / 5A (NO) 3A (NC) @ 277 VAC"
+                        ]
+                    },
+                    {
+                        "items": "Digital",
+                        "list": [
+                            " RS485 / Modbus (Slave or Master) - Show value, calibration status, fault status..."
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Power Supply",
+                "tagline": "Online Water analyzer",
+                "heading": "Power <span class='serif-i'>Supply</span>",
+                "desc": "Would you like a robust data base to help you better understand your process over time and under specific conditions? Do you want to review your plant’s processes, identify opportunities for improvement and make fact-based operational decisions? Vepolink is your tool.",
+                "table": [
+                    {
+                        "items": "Voltage",
+                        "list": [
+                            "100 ... 240 VAC (50 - 60 Hz) or 24 VDC (Universal)"
+                        ]
+                    },
+                    {
+                        "items": "Consumption",
+                        "list": [
+                            "< 20 W (60 W max."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "ph-analog",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/img003.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "pH Analog Sensor",
+                "sort_dec": "The pH Sensor is an essential tool for accurate pH monitoring across various applications",
+                "features": [
+                    "Repeatability and Stability",
+                    "Measurement range",
+                    "Simple design",
+                    "Analog-Digital Conversion Module",
+                    "RS485 Digital Signal Output",
+                    "Quick and Easy Installation"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "pH Sensor",
+                "sub_heading": "pH Sensor is an essential tool for accurate pH monitoring",
+                "decription": [
+                    "The pH Sensor is an essential tool for accurate pH monitoring across various applications, including water treatment, hydrological monitoring, wastewater treatment, swimming pools, fish ponds, and industries such as fertilizers, chemicals, and biology.",
+                    "Designed with a composite electrode that combines a glass indicating electrode and a reference electrode, this sensor provides reliable pH measurement for water-based environments."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of pH Sensor",
+                "data": [
+                    {
+                        "sub_heading": "Repeatability and Stability",
+                        "desc": "Offers good stability and repeatability, suitable for fresh and sea water testing."
+                    },
+                    {
+                        "sub_heading": "Measurement range",
+                        "desc": "- 0 - 14pH"
+                    },
+                    {
+                        "sub_heading": "Simple design",
+                        "desc": "Allows for easy manual cleaning."
+                    },
+                    {
+                        "sub_heading": "Analog-Digital Conversion Module (Optional)",
+                        "desc": "Enables digital signal output with high anti jamming capacity and far transmission distance."
+                    },
+                    {
+                        "sub_heading": "RS485 Digital Signal Output (Optional)",
+                        "desc": "Achieves standard digital signal output via RS485, enabling integration and networking with other equipment without a controller."
+                    },
+                    {
+                        "sub_heading": "Quick and Easy Installation",
+                        "desc": "Facilitates field installation through terminal connection."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Physical Specifications",
+                "tagline": "pH Sensor",
+                "heading": "Physical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Main Material",
+                        "list": [
+                            "Black Polypropylene, Ag/Agcl Reference Gel"
+                        ]
+                    },
+                    {
+                        "items": "Weight",
+                        "list": [
+                            "0.2KG"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions",
+                        "list": [
+                            " Dia. 28.7mm * Length 195mm"
+                        ]
+                    },
+                    {
+                        "items": "Cable Length",
+                        "list": [
+                            "Standard: 10m, extendable to 20m"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Measurement Specifications",
+                "tagline": "pH Sensor",
+                "heading": "Measurement <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Measurement Range",
+                        "list": [
+                            " 0-14pH;"
+                        ]
+                    },
+                    {
+                        "items": "Measurement Accuracy",
+                        "list": [
+                            " pH: ±0.1pH; Temperature: ±0.5°C "
+                        ]
+                    },
+                    {
+                        "items": "Temperature Range",
+                        "list": [
+                            "0-80°C "
+                        ]
+                    },
+                    {
+                        "items": "Pressure Range",
+                        "list": [
+                            "≤ 0.6 Mpa"
+                        ]
+                    },
+                    {
+                        "items": "Zero Potential pH Value",
+                        "list": [
+                            "7 ± 0.25pH (15mV)"
+                        ]
+                    },
+                    {
+                        "items": "Slope",
+                        "list": [
+                            "≥ 95%"
+                        ]
+                    },
+                    {
+                        "items": "Internal Resistance",
+                        "list": [
+                            "≤ 250M�"
+                        ]
+                    },
+                    {
+                        "items": "Alkaline Error",
+                        "list": [
+                            " 0.2pH (1mol/L Na+ pH14) (25°C)"
+                        ]
+                    },
+                    {
+                        "items": "Response Time",
+                        "list": [
+                            "≤ 0.6 Mpa"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "Single Channel Transmiter",
+            "heading": "Applications of Single Channel Controller",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Chlor-Alkali Industry",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Fish farming",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Food and Beverage",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Desalination Plants",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Potable Water Treatment Plants (PWTP)",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "slug": "orp-analog",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/img003.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "ORP Analog Sensor",
+                "sort_dec": "The ORP sensor is a combination electrode that includes a precious metals indicator electrode with a reference electrode.",
+                "features": [
+                    "Accurate Conductivity Monitoring",
+                    "Glass Platinum Electrode",
+                    "Wide Measurement Range",
+                    "Temperature Flexibility",
+                    "Pressure Compatibility",
+                    "Quick Response Time",
+                    "Flexible Cable Length",
+                    "Versatile Applications",
+                    "Reliable Medium Temperature"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "ORP sensor",
+                "sub_heading": "ORP(A) ORP sensor",
+                "decription": [
+                    "ORP(A) ORP sensor is a combination electrode that includes a precious metals indicator electrode with a reference electrode. It measures the potential difference between the working battery composed of the measuring electrode and the reference electrode in a solution.",
+                    "By utilizing the linear relationship between the ORP value of the measuring solution and the potential of the working battery, it achieves online ORP monitoring."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of pH Sensor",
+                "data": [
+                    {
+                        "sub_heading": "Repeatability and Stability",
+                        "desc": "Offers good stability and repeatability, suitable for fresh and sea water testing.Measurement range:-2000mV ~ +2000mV."
+                    },
+                    {
+                        "sub_heading": "Simple Cleaning and Activation",
+                        "desc": "Allows for easy cleaning and activation."
+                    },
+                    {
+                        "sub_heading": "Analog-Digital Conversion Module",
+                        "desc": "Enables digital signal output with high antijamming capacity and far transmission distance."
+                    },
+                    {
+                        "sub_heading": "RS485 Digital Signal Output",
+                        "desc": "Achieves standard digital signal output via RS485, enabling integration and networking with other equipment without a controller."
+                    },
+                    {
+                        "sub_heading": "Quick and Easy Installation",
+                        "desc": "Facilitates field installation through terminal connection."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Technical Specifications",
+                "tagline": "ORP Analog Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Main Materials",
+                        "list": [
+                            "Black Polypropylene, Ag/Agcl Reference Gel"
+                        ]
+                    },
+                    {
+                        "items": "Measurement Range",
+                        "list": [
+                            "-2000 mV or +2000 mV"
+                        ]
+                    },
+                    {
+                        "items": "Pressure Range",
+                        "list": [
+                            "≤ 0.6 Mpa"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Range",
+                        "list": [
+                            "0-80 °C"
+                        ]
+                    },
+                    {
+                        "items": "Zero Potential Value",
+                        "list": [
+                            "86 ± 15 mV (25°C) (in pH 7.00 solution containing saturated quinhydrone)"
+                        ]
+                    },
+                    {
+                        "items": "Range",
+                        "list": [
+                            "≥ 170 mV (25 °C) (in pH 4.00 solution containing saturated quinhydrone)"
+                        ]
+                    },
+                    {
+                        "items": "Response Time",
+                        "list": [
+                            "≤ 10 sec (Reaches 95% of the end value) (After stirring)"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions",
+                        "list": [
+                            "Dia 28.7 mm * L 195 mm"
+                        ]
+                    },
+                    {
+                        "items": "Weight",
+                        "list": [
+                            "0.2Kg"
+                        ]
+                    },
+                    {
+                        "items": "Cable Length",
+                        "list": [
+                            "Standard: 10m, maximum extendable to 20m"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "Single Channel Transmiter",
+            "heading": "Applications of Single Channel Controller",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Chlor-Alkali Industry",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Fish farming",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Food and Beverage",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Desalination Plants",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Potable Water Treatment Plants (PWTP)",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "slug": "tds-analog",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/img003.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "TDS Analog Sensor",
+                "sort_dec": "TDS Sensor, featuring a glass platinum electrode, is a reliable instrument for accurate TDS monitoring",
+                "features": [
+                    "Accurate TDS Monitoring",
+                    "Glass Platinum Electrode",
+                    "Wide Measurement Range",
+                    "Temperature Flexibility",
+                    "Pressure Compatibility",
+                    "Quick Response Time",
+                    "Flexible Cable Length",
+                    "Versatile Applications",
+                    "Reliable Medium Temperature"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "TDS sensor",
+                "sub_heading": "TDS(A) TDS sensor",
+                "decription": [
+                    "TDS(Analog) TDS Sensor, featuring a glass platinum electrode, is a reliable instrument for accurate TDS monitoring.",
+                    "This sensor utilizes voltage and current values to determine TDS, making it an essential tool for applications in water treatment, hydrological monitoring, wastewater treatment, swimming pools, fish ponds, as well as in fertilizers, chemicals, and biology industries."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of pH Sensor",
+                "data": [
+                    {
+                        "sub_heading": "Accurate TDS Monitoring",
+                        "desc": "Provides precise and reliable measurement of TDS,ensuring data accuracy for various applications."
+                    },
+                    {
+                        "sub_heading": "Glass Platinum Electrode",
+                        "desc": "Utilizes a glass platinum electrode design, known for its durability and consistent performance."
+                    },
+                    {
+                        "sub_heading": "Wide Measurement Range",
+                        "desc": "Capable of measuring TDS within a range of 0 to 20,000 mg/l , accommodating diverse TDS levels."
+                    },
+                    {
+                        "sub_heading": "Temperature Flexibility",
+                        "desc": "Operates effectively in temperatures ranging from 0 to 80 °C, suitable for various environmental conditions."
+                    },
+                    {
+                        "sub_heading": "Pressure Compatibility",
+                        "desc": "Designed to withstand pressures up to 0.6 Mpa, maintaining performance under different pressure conditions."
+                    },
+                    {
+                        "sub_heading": "Quick Response Time",
+                        "desc": "Offers a rapid response time of ≤10 seconds to reach 95% of the end value after stirring,ensuring timely data capture"
+                    },
+                    {
+                        "sub_heading": "Flexible Cable Length",
+                        "desc": "Supplied with a standard cable length of 10m, extendable to a maximum of 20m, facilitating installation flexibility."
+                    },
+                    {
+                        "sub_heading": "Versatile Applications",
+                        "desc": "Suitable for a wide range of applications including water treatment, hydrological monitoring, swimming pools, and more."
+                    },
+                    {
+                        "sub_heading": "Reliable Medium Temperature",
+                        "desc": "Capable of operating in a medium temperature range of 0~80°C without freezing, enabling use in various environments."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Physical Specifications",
+                "tagline": "TDS Analog Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Main Material",
+                        "list": [
+                            "Black polypropylene shell, glass platinum electrode"
+                        ]
+                    },
+                    {
+                        "items": "Weight",
+                        "list": [
+                            "0.2Kg"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions",
+                        "list": [
+                            "Dia 28.7 mm * L 195 mm"
+                        ]
+                    },
+                    {
+                        "items": "Cable Length",
+                        "list": [
+                            "Standard: 10m, extendable to 20m"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Measurement Specifications",
+                "tagline": "TDS Analog Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Measurement Range",
+                        "list": [
+                            "TDS : 0 to 20,000 mg/l (K = 1)"
+                        ]
+                    },
+                    {
+                        "items": "Measurement Accuracy",
+                        "list": [
+                            "±1% or 1 mg/l"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Range",
+                        "list": [
+                            "0-80 °C"
+                        ]
+                    },
+                    {
+                        "items": "Pressure Range",
+                        "list": [
+                            "0.6 Mpa"
+                        ]
+                    },
+                    {
+                        "items": "Response Time",
+                        "list": [
+                            "10 seconds (Reach 95% of the end value)"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Compensation",
+                        "list": [
+                            "PT1000"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "Single Channel Transmiter",
+            "heading": "Applications of Single Channel Controller",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Chlor-Alkali Industry",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Fish farming",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Food and Beverage",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Desalination Plants",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Potable Water Treatment Plants (PWTP)",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "slug": "ec-analog",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/img003.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "EC Conductivity Sensor",
+                "sort_dec": "EC(A) Conductivity Sensor, featuring a glass platinum electrode, is a reliable instrument for accurate conductivity monitoring.",
+                "features": [
+                    "Accurate Conductivity Monitoring",
+                    "Glass Platinum Electrode",
+                    "Wide Measurement Range",
+                    "Temperature Flexibility",
+                    "Pressure Compatibility",
+                    "Quick Response Time",
+                    "Flexible Cable Length",
+                    "Versatile Applications",
+                    "Reliable Medium Temperature"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "EC Conductivity Sensor",
+                "sub_heading": "EC(A) Conductivity Sensor",
+                "decription": [
+                    "EC(A) Conductivity Sensor, featuring a glass platinum electrode, is a reliable instrument for accurate conductivity monitoring.",
+                    "This sensor utilizes voltage and current values to determine conductivity, making it an essential tool for applications in water treatment, hydrological monitoring, wastewater treatment, swimming pools, fish ponds, as well as in fertilizers, chemicals, and biology industries."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of pH Sensor",
+                "data": [
+                    {
+                        "sub_heading": "Accurate Conductivity Monitoring",
+                        "desc": "Provides precise and reliable measurement of conductivity,ensuring data accuracy for various applications."
+                    },
+                    {
+                        "sub_heading": "Glass Platinum Electrode",
+                        "desc": "Utilizes a glass platinum electrode design, known for its durability and consistent performance."
+                    },
+                    {
+                        "sub_heading": "Wide Measurement Range",
+                        "desc": "Capable of measuring conductivity within a range of 10 to 5000 uS/cm , accommodating diverse conductivity levels."
+                    },
+                    {
+                        "sub_heading": "Temperature Flexibility",
+                        "desc": "Operates effectively in temperatures ranging from 0 to 80 °C, suitable for various environmental conditions."
+                    },
+                    {
+                        "sub_heading": "Pressure Compatibility",
+                        "desc": "Designed to withstand pressures up to 0.6 Mpa, maintaining performance under different pressure conditions."
+                    },
+                    {
+                        "sub_heading": "Quick Response Time",
+                        "desc": "Offers a rapid response time of ≤10 seconds to reach 95% of the end value after stirring,ensuring timely data capture."
+                    },
+                    {
+                        "sub_heading": "Flexible Cable Length",
+                        "desc": "Supplied with a standard cable length of 10m, extendable to a maximum of 20m, facilitating installation flexibility."
+                    },
+                    {
+                        "sub_heading": "Versatile Applications",
+                        "desc": "Suitable for a wide range of applications including water treatment, hydrological monitoring, swimming pools, and more."
+                    },
+                    {
+                        "sub_heading": "Reliable Medium Temperature",
+                        "desc": "Capable of operating in a medium temperature range of 0~80°C without freezing, enabling use in various environments."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Physical Specifications",
+                "tagline": "EC Conductivity Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Main Material",
+                        "list": [
+                            "Black polypropylene shell, glass platinum electrode"
+                        ]
+                    },
+                    {
+                        "items": "Weight",
+                        "list": [
+                            "0.2Kg"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions",
+                        "list": [
+                            "Dia 28.7 mm * L 195 mm"
+                        ]
+                    },
+                    {
+                        "items": "Cable Length",
+                        "list": [
+                            "Standard: 10m, extendable to 20m"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Measurement Specifications",
+                "tagline": "EC Conductivity Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Measurement Range",
+                        "list": [
+                            "Conductivity: 10-5000 uS/cm (k = 1)"
+                        ]
+                    },
+                    {
+                        "items": "Measurement Accuracy",
+                        "list": [
+                            "±1% or 1 us/cm"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Range",
+                        "list": [
+                            "0-80 °C"
+                        ]
+                    },
+                    {
+                        "items": "Pressure Range",
+                        "list": [
+                            "≤ 0.6 Mpa"
+                        ]
+                    },
+                    {
+                        "items": "Response Time",
+                        "list": [
+                            "10 seconds (Reach 95% of the end value)"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Compensation",
+                        "list": [
+                            "PT1000A"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "Single Channel Transmiter",
+            "heading": "Applications of Single Channel Controller",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Chlor-Alkali Industry",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Fish farming",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Food and Beverage",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Desalination Plants",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Potable Water Treatment Plants (PWTP)",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "slug": "ph-digital-sensor",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/imgpH.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "PH Digital Sensor",
+                "sort_dec": "The PPH-500B pH is a digital pH sensor with an RS485 communication interface and the standard Modbus protocol.",
+                "features": [
+                    "Design ensures electrical safety",
+                    "Built-in protection",
+                    "Communication chip",
+                    "Antiinterference",
+                    "Reliable Operation",
+                    "Easy Installation",
+                    "RS-485 transmission interface",
+                    "Less Maintenance"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "PH Digital Sensor",
+                "sub_heading": "This is a digital pH sensor with an RS485 communication interface and the standard Modbus protocol.",
+                "decription": [
+                    "Stainless steel corrosion resistant shell, IP68 protection grade, built-in PT1000 thermistor and compensation algorithm, with high precision, long life, small drift and other advantages, suitable for all kinds of harsh working environment."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of pH Digital Sensor",
+                "data": [
+                    {
+                        "sub_heading": "Power supply",
+                        "desc": "Power supply and output isolation design ensures electrical safety."
+                    },
+                    {
+                        "sub_heading": "Built-in protection",
+                        "desc": "Built-in protection circuit for power supply and communication chip, offering strong antiinterference ability."
+                    },
+                    {
+                        "sub_heading": "Protection",
+                        "desc": "Comprehensive protection circuit design for reliable operation without additional equipment."
+                    },
+                    {
+                        "sub_heading": "Easy installation",
+                        "desc": "Circuit part designed within the electrode for easy installation and operation."
+                    },
+                    {
+                        "sub_heading": "RS-485 transmission interface",
+                        "desc": "MODBUS-RTU communication protocol, enabling two-way communication and remote command reception."
+                    },
+                    {
+                        "sub_heading": "Less maintenance",
+                        "desc": "The pH combination electrodes requires very little maintenance and needs no electrolyte replacement"
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Basic Specifications",
+                "tagline": "PH Digital Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Main Material",
+                        "list": [
+                            "Shell: 316L stainless steel + Polyoxymethylene",
+                            "Cable: Polyurethane; Electrode: Glass core"
+                        ]
+                    },
+                    {
+                        "items": "Measurement Range",
+                        "list": [
+                            "0-14 pH"
+                        ]
+                    },
+                    {
+                        "items": "Resolution",
+                        "list": [
+                            "0.01 pH"
+                        ]
+                    },
+                    {
+                        "items": "Precision",
+                        "list": [
+                            "±0.1 pH"
+                        ]
+                    },
+                    {
+                        "items": "Repeatability",
+                        "list": [
+                            "±0.1 pH"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Range",
+                        "list": [
+                            "-15 to 110°C"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Resolution",
+                        "list": [
+                            "0.1°C"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Accuracy",
+                        "list": [
+                            "0.5°C"
+                        ]
+                    },
+                    {
+                        "items": "Pressure Range",
+                        "list": [
+                            "0-0.1Mpa"
+                        ]
+                    },
+                    {
+                        "items": "Operating Temperature",
+                        "list": [
+                            "-5 to +60°C"
+                        ]
+                    },
+                    {
+                        "items": "Power Supply",
+                        "list": [
+                            "9-36 VDC"
+                        ]
+                    },
+                    {
+                        "items": "Dimension",
+                        "list": [
+                            "Diameter 34mm * Length 252mm"
+                        ]
+                    },
+                    {
+                        "items": "Water Protective Rate",
+                        "list": [
+                            "IP68 (Protective casing)"
+                        ]
+                    },
+                    {
+                        "items": "Cable Length",
+                        "list": [
+                            "Standard: 10m, maximum extendable to 200m"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "pH Digital Sensor",
+            "heading": "Applications of pH Digital Sensor",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Chlor-Alkali Industry",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Fish farming",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Food and Beverage",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Desalination Plants",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Potable Water Treatment Plants (PWTP)",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "slug": "ec-digital-sensor",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/imgpH.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "Conductivity Sensor / Salinity Sensor",
+                "sort_dec": "EC(D) Conductivity Sensor with a durable PPS(polyphenylene) Shell. This sensor offers precision, reliability, and versatility, making it an ideal solution for diverse applications.",
+                "features": [
+                    "High Accuracy",
+                    "Good Stability",
+                    "High Sensitivity",
+                    "Strong Ability to Resist Pollution",
+                    "Long-time Work Underwater",
+                    "Effective Temperature Compensation",
+                    "Ease of Integration.",
+                    "Reverse Connection Protection",
+                    "Power Supply Protection"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "EC Digital Sensor",
+                "sub_heading": "Digital quadrupole Conductivity/Salinity Sensor, suitable for all kinds of harsh working environment",
+                "decription": [
+                    "It has the advantages of high precision, long life and small drift.Widely used in surface water, municipal sewage, industrial wastewater, sewage treatment, waterworks, industrial process, aquaculture and other industries."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of pH Digital Sensor",
+                "data": [
+                    {
+                        "sub_heading": "High Accuracy",
+                        "desc": "Core electrode adopts quadrupole working principle, wide range, high accuracy and good stability"
+                    },
+                    {
+                        "sub_heading": "High Sensitivity",
+                        "desc": "Electrode is made of graphite, high sensitivity, strong ability to resist pollution."
+                    },
+                    {
+                        "sub_heading": "Long-time Work Underwater",
+                        "desc": "Waterproof grade IP68, 316L stainless steel corrosion resistant shell, long-time work underwater."
+                    },
+                    {
+                        "sub_heading": "Built Temp",
+                        "desc": "Built-in PT-1000 temp. sensitive resistor, effective temperature compensation."
+                    },
+                    {
+                        "sub_heading": "Ease of Integration",
+                        "desc": "RS485 communication interface, the standard Modbus protocol, ease of integration."
+                    },
+                    {
+                        "sub_heading": "Reverse Connection Protection",
+                        "desc": "Sensor power supply positive and negative reverse connection protection."
+                    },
+                    {
+                        "sub_heading": "Power Supply Protection",
+                        "desc": "Sensor RS485 A/B terminal is connected to the power supply protection."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Physical Specifications",
+                "tagline": "EC Digital Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Main Material",
+                        "list": [
+                            "316L Stainless Steel + Polyoxymethylene"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions",
+                        "list": [
+                            "Dia. 34mm* Length 210mm"
+                        ]
+                    },
+                    {
+                        "items": "Cable Length",
+                        "list": [
+                            "Standard: 10m, Max. extendable to 200m"
+                        ]
+                    },
+                    {
+                        "items": "Mounting Thread",
+                        "list": [
+                            "3/4 inch front and rear threads"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Measurement Specifications",
+                "tagline": "EC Digital Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Measurement Range",
+                        "list": [
+                            "Conductivity : 10 us/cm - 200 ms/cm",
+                            "Salinity : 0 - 10 ppt"
+                        ]
+                    },
+                    {
+                        "items": "Accuracy",
+                        "list": [
+                            "± 2 % F.S."
+                        ]
+                    },
+                    {
+                        "items": "Resolution",
+                        "list": [
+                            "0.01us/cm-1us/cm depends on measurement range"
+                        ]
+                    },
+                    {
+                        "items": "Repeatability",
+                        "list": [
+                            "±1% or 1us/cm"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Temperature Specifications",
+                "tagline": "EC Digital Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Temp. measuring range",
+                        "list": [
+                            "0-100 °C"
+                        ]
+                    },
+                    {
+                        "items": "Electrode voltage resistance",
+                        "list": [
+                            "0-0.1 Mpa"
+                        ]
+                    },
+                    {
+                        "items": "Electrode temp. resistance",
+                        "list": [
+                            "0-45 °C"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Pressure Specifications",
+                "tagline": "EC Digital Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Pressure Range",
+                        "list": [
+                            "0-0.1 Mpa"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Electrical Specifications",
+                "tagline": "EC Digital Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Power Supply",
+                        "list": [
+                            "9-36VDC"
+                        ]
+                    },
+                    {
+                        "items": "Communication Protocol",
+                        "list": [
+                            "MODBUS RS485"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Protection & Communication",
+                "tagline": "EC Digital Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Protective Rate",
+                        "list": [
+                            "IP68 (Protective casing)"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "pH Digital Sensor",
+            "heading": "Applications of pH Digital Sensor",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Chlor-Alkali Industry",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Fish farming",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Food and Beverage",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Desalination Plants",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Potable Water Treatment Plants (PWTP)",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "slug": "odo-sensor",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/img009.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "Optical Dissolved Oxygen Sensor",
+                "sort_dec": "ODO Optical Dissolved Oxygen Sensor utilizes fluorescence technology to accurately measure dissolved oxygen concentration.",
+                "features": [
+                    "New oxygen-sensitive membrane design",
+                    "NTC temperature",
+                    "Measurement without oxygen",
+                    "Breakthrough Fluorescence Technology",
+                    "Low maintenance",
+                    "Built-in self-diagnosis",
+                    "Plug-and-play installation.",
+                    "Factory calibration",
+                    "High anti-jamming digital sensor",
+                    "Integration and networking capabilities"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "ODO Sensor",
+                "sub_heading": "Optical Dissolved Oxygen Sensor",
+                "decription": [
+                    "ODO Optical Dissolved Oxygen Sensor utilizes fluorescence technology to accurately measure dissolved oxygen concentration. A luminescent material on the sensor's cap is excited by blue LED light, emitting red light. The intensity and time of the red light are indicative of oxygen molecule concentration, enabling precise calculations."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of ODO Sensor",
+                "data": [
+                    {
+                        "sub_heading": "Design",
+                        "desc": "New oxygen-sensitive membrane design."
+                    },
+                    {
+                        "sub_heading": "Temperature",
+                        "desc": "NTC temperature compensation function"
+                    },
+                    {
+                        "sub_heading": "Measurement",
+                        "desc": "Measurement without oxygen consumption, flow rate, or stirring."
+                    },
+                    {
+                        "sub_heading": "Utilizes",
+                        "desc": "Utilizes breakthrough fluorescence technology"
+                    },
+                    {
+                        "sub_heading": "Maintenance",
+                        "desc": "Low maintenance requirements with built-in selfdiagnosis."
+                    },
+                    {
+                        "sub_heading": "Easy to Instaled",
+                        "desc": "Plug-and-play installation for easy setup."
+                    },
+                    {
+                        "sub_heading": "Calibration",
+                        "desc": "Factory calibration with optional field calibration."
+                    },
+                    {
+                        "sub_heading": "Output",
+                        "desc": "High anti-jamming digital sensor with standard signal output"
+                    },
+                    {
+                        "sub_heading": "Integration",
+                        "desc": "Integration and networking capabilities."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Physical Specifications",
+                "tagline": "Optical Dissolved Oxygen Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Dimensions",
+                        "list": [
+                            "Diameter 49.5 mm * Length 251.3 mm"
+                        ]
+                    },
+                    {
+                        "items": "Cable Material",
+                        "list": [
+                            "Polyurethane"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Conductivity",
+                "tagline": "Optical Dissolved Oxygen Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Measurement Range",
+                        "list": [
+                            "DO: 0-20 mg/L or 0-200% saturation",
+                            "Temperature: 0-45 °C"
+                        ]
+                    },
+                    {
+                        "items": "Measurement Accuracy",
+                        "list": [
+                            "DO: ±3% or ±0.3 mg/L of measured value",
+                            "Temperature: ±0.5 °C"
+                        ]
+                    },
+                    {
+                        "items": "Resolution",
+                        "list": [
+                            "0.01 mg/L"
+                        ]
+                    },
+                    {
+                        "items": "Repeatability",
+                        "list": [
+                            "±0.3 mg/L"
+                        ]
+                    },
+                    {
+                        "items": "Pressure Range",
+                        "list": [
+                            "≤ 0.3 Mpa"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Main Material",
+                "tagline": "Optical Dissolved Oxygen Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Body",
+                        "list": [
+                            "SS316L (fresh water)",
+                            "Titanium alloy (Ocean marine)"
+                        ]
+                    },
+                    {
+                        "items": "Cover",
+                        "list": [
+                            "Polyphenylene + glass fiber"
+                        ]
+                    },
+                    {
+                        "items": "Weight",
+                        "list": [
+                            "1.4KG"
+                        ]
+                    },
+                    {
+                        "items": "Cable Length",
+                        "list": [
+                            "Standard:10m, the maximum can be extended 100m"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Electrical Specifications",
+                "tagline": "Optical Dissolved Oxygen Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Power Supply",
+                        "list": [
+                            "DC: 9~36 VDC"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Communication & Environmental",
+                "tagline": "Optical Dissolved Oxygen Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Communication Protocol",
+                        "list": [
+                            "MODBUS RS485"
+                        ]
+                    },
+                    {
+                        "items": "Storage Temperature",
+                        "list": [
+                            "-15 to 60 °C"
+                        ]
+                    },
+                    {
+                        "items": "Measuring Temperature",
+                        "list": [
+                            "0-45 °C"
+                        ]
+                    },
+                    {
+                        "items": "Level of Protection",
+                        "list": [
+                            "IP68/NEMA6P"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "pH Digital Sensor",
+            "heading": "Applications of pH Digital Sensor",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Chlor-Alkali Industry",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Fish farming",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Food and Beverage",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Desalination Plants",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Potable Water Treatment Plants (PWTP)",
+                    "desc": ""
+                }
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "slug": "rcl-sensor",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/img010.png"
+                ],
+                "tagline": "Real Time Water Quality Monitoring System / Technology",
+                "heading": "Digital Residual Chlorine Online sensor",
+                "sort_dec": "RCL is an advanced residual chlorine/chlorine dioxide sensor that employs a constant voltage principle to measure these components in water.",
+                "features": [
+                    "Easy to clean and replace",
+                    "Maintenance and Long-term Stability",
+                    "Enhanced electrical safety",
+                    "Strong Antiinterference Capability",
+                    "Advanced protection",
+                    "Two-Way Communication"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "RCL Sensor",
+                "sub_heading": "Digital Residual Chlorine Online sensor",
+                "decription": [
+                    "Residual Chlorine or Chlorine Dioxide online analyzer, using photopolymer film and silicon crystal semiconductor as conduction elements, built-in chlorine and temperature probe, microelectronic components are injected and packaged by MEMS technology",
+                    "As the concentration of free chlorine or chlorine dioxide in the water sample changes, the sensor generates different current intensity, which is processed by the regulator and signal amplifier, and converted into the standard MODBUS RS485 signal. The use of the sensor does not need to change the reagent, simple maintenance, to ensure the long-term stability of the instrument reliability and accuracy"
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of RCL Sensor",
+                "data": [
+                    {
+                        "sub_heading": "Easy to clean",
+                        "desc": "Easy to clean and replace."
+                    },
+                    {
+                        "sub_heading": "Maintenance and Long-term Stability",
+                        "desc": "The electrode operates without requiring membrane or reagent replacement, ensuring simple maintenance and long-term stability, reliability, and accuracy"
+                    },
+                    {
+                        "sub_heading": "Enhanced electrical safety",
+                        "desc": "Designed with power supply and output isolation for enhanced electrical safety."
+                    },
+                    {
+                        "sub_heading": "Antiinterference Capability",
+                        "desc": "Built-in protection circuit for the power supply and communication chip, offering strong antiinterference capability."
+                    },
+                    {
+                        "sub_heading": "Advanced protection",
+                        "desc": "Advanced protection circuitry enables reliable performance without additional isolation equipment."
+                    },
+                    {
+                        "sub_heading": "Two-Way Communication",
+                        "desc": "RS-485 transmission interface with MODBUS-RTU communication protocol enables two-way communication and remote command reception."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Technical Specification",
+                "tagline": "Optical Dissolved Oxygen Sensor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Principle",
+                        "list": [
+                            "Constant voltage method"
+                        ]
+                    },
+                    {
+                        "items": "Measurement Range",
+                        "list": [
+                            "0-2 mg/L, 0-20 mg/L (optional)"
+                        ]
+                    },
+                    {
+                        "items": "Calibration",
+                        "list": [
+                            "Two-point calibration"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Compensation",
+                        "list": [
+                            "Manual or automatic temperature compensation"
+                        ]
+                    },
+                    {
+                        "items": "Temperature Coefficient",
+                        "list": [
+                            "2%/°C"
+                        ]
+                    },
+                    {
+                        "items": "Power Supply",
+                        "list": [
+                            "12V DC"
+                        ]
+                    },
+                    {
+                        "items": "Communication Protocol",
+                        "list": [
+                            "MODBUS RS485"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "slug": "climaguard",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/imgpH.png"
+                ],
+                "tagline": "Continuous Ambient Air Quality Monitoring System",
+                "heading": "Sensor based Air Quality Monitor ",
+                "sort_dec": "The ClimaGuard Vair-9014 Series is a state-of-the-art air quality monitoring solution Provides real-time, precise, and reliable data for various industrial and environmetal solution applications.",
+                "features": [
+                    "Quality Monitoring",
+                    "Multi Gas Detection",
+                    "Wireless connectivity",
+                    "User-Friendly Interface",
+                    "Energy Efficiency",
+                    "Alerts & Notification",
+                    "Easy Installation"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "ClimaGuard",
+                "sub_heading": "Sensor based Air Quality Monitor ",
+                "decription": [
+                    "The ClimaGuard Vair-9014 Series is a state-of-the-art air quality monitoring solution Provides real-time, precise, and reliable data for various industrial and environmetal solution applications. Developed with Advanced sensor technology, it provides comprehensive insights into air quality parameters, ensuring compliance with international environmental regulations and industry-specific air quality standards.",
+                    "Built for high-performance monitering , the ClimaGuard Vair-9014 Series is equipped with advanced detection capabilities that accurately measure pollutants, particulate matter, and gas concentrations. Its robust design allows it to function effectively in diverse environments, including industrial facilities, urban areas, and remote locations.",
+                    "With seamless connectivity and user-friendly data managemnet, this series integrates with cloud platforms and analytical software to make informed decisions for pollution control, regulatory compliance, and environmental protection. The ClimaGuard Vair-9014 Series is the ideal choice for organizations looking to enchance their air quality monitering systems with precision, efficiency, and reliability.",
+                    "According to CPCB guidelines, the placement height for a Continuous Ambient Air Quality Monitoring Station (CAAQMS) should be around 2 meters above ground level to accurately represent the 'breathing zone' of people, ensuring the air inlet is positioned at a height between 2 to 4 meters from the ground."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of RCL Sensor",
+                "data": [
+                    {
+                        "sub_heading": "Monitoring",
+                        "desc": "Real-Time Air Quality Monitoring"
+                    },
+                    {
+                        "sub_heading": "Detection",
+                        "desc": "High-Precision Sensors for Multi Gas Detection"
+                    },
+                    {
+                        "sub_heading": "Integration",
+                        "desc": "Wireless connectivity & Cloud Integration"
+                    },
+                    {
+                        "sub_heading": "User-Friendly",
+                        "desc": "User-Friendly Interface & Data Visualization"
+                    },
+                    {
+                        "sub_heading": "Durable",
+                        "desc": "Durable & Weather-Resistant Design"
+                    },
+                    {
+                        "sub_heading": "Power Consumption",
+                        "desc": "Low Power Consumption & Energy Efficiency"
+                    },
+                    {
+                        "sub_heading": "Alerts",
+                        "desc": "Customizable Alerts & Notification"
+                    },
+                    {
+                        "sub_heading": "Maintenance",
+                        "desc": "Easy Installation & Low Maintenance"
+                    },
+                    {
+                        "sub_heading": "Scalability",
+                        "desc": "Scalability for Various Applications"
+                    },
+                    {
+                        "sub_heading": "Scalability",
+                        "desc": "Compliance with International Standards"
+                    },
+                    {
+                        "sub_heading": "Efficient",
+                        "desc": "Equipped with an Efficient Solar Power System"
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Technical Specification",
+                "tagline": "Sensor based Air Quality Monitor",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Gas sensors",
+                        "list": [
+                            "CO",
+                            "CO₂",
+                            "NO₂O₃",
+                            "SO₂",
+                            "H₂S",
+                            "NH₃",
+                            "CH₄",
+                            "TVOC",
+                            "HCL ( Any Selected 6) give me correct"
+                        ]
+                    },
+                    {
+                        "items": "PM Sensor",
+                        "list": [
+                            "PM1",
+                            "PM2.5",
+                            "PM10"
+                        ]
+                    },
+                    {
+                        "items": "Working Principle",
+                        "list": [
+                            "Electrochemical Catalytic Reaction (Gases) Optical Laser Technology (Particulate Matter)"
+                        ]
+                    },
+                    {
+                        "items": "Weather Station",
+                        "list": [
+                            "Temp, Humidity, Pressure, Wind speed, Direction & Solar Radiation"
+                        ]
+                    },
+                    {
+                        "items": "Operating temp",
+                        "list": [
+                            "-10°C to 60°C"
+                        ]
+                    },
+                    {
+                        "items": "Operating RH",
+                        "list": [
+                            "0 to 99 %RH"
+                        ]
+                    },
+                    {
+                        "items": "Battery",
+                        "list": [
+                            "Lithium 6 Ah (13 to 14 Hours Backup)"
+                        ]
+                    },
+                    {
+                        "items": "External Supply",
+                        "list": [
+                            "12-18 VDC. Charger or Solar Panel"
+                        ]
+                    },
+                    {
+                        "items": "Response time for gases",
+                        "list": [
+                            "From 15 to 30 seconds"
+                        ]
+                    },
+                    {
+                        "items": "Response time for Particles",
+                        "list": [
+                            "From 4 seconds"
+                        ]
+                    },
+                    {
+                        "items": "Power consumption",
+                        "list": [
+                            "0.08 - 1.2W (depending on configuration)"
+                        ]
+                    },
+                    {
+                        "items": "Communications",
+                        "list": [
+                            "Ethernet, RS-485, 2G, 3G or 4G SIM"
+                        ]
+                    },
+                    {
+                        "items": "Connectors",
+                        "list": [
+                            "#1: power 12 v to 18 v",
+                            "#2: Modbus RTU Slave",
+                            "#3: Weather station",
+                            "#4: Ethernet"
+                        ]
+                    },
+                    {
+                        "items": "Cloud Communication",
+                        "list": [
+                            "sending Data to Cloud For Every 1 minute"
+                        ]
+                    },
+                    {
+                        "items": "Remote Management",
+                        "list": [
+                            "Accessibility is available"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions",
+                        "list": [
+                            "Length 260 mm x width 190 mm x Height 251 mm"
+                        ]
+                    },
+                    {
+                        "items": "Weight",
+                        "list": [
+                            "<3.5 kg"
+                        ]
+                    },
+                    {
+                        "items": "Enclosure",
+                        "list": [
+                            "Stainless Steel & Aluminium"
+                        ]
+                    },
+                    {
+                        "items": "IP rating",
+                        "list": [
+                            "IP54"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "pH Digital Sensor",
+            "heading": "Applications of pH Digital Sensor",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Industrial facilities",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Smart cities",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Construction and mining sites",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Environmental monitoring stations",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Government pollution control authorities",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Research and academic institutions",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Urban air quality surveillance",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Infrastructure and transportation projects",
+                    "desc": ""
+                }
+            ]
+        },
+        "FAQ": [
+            {
+                "id": 1,
+                "q": "What is the working principle of ClimaGuard air quality monitoring system?",
+                "a": "ClimaGuard operates using sensor-based ambient air quality monitoring technology with optical laser sensing for accurate particulate matter measurement."
+            },
+            {
+                "id": 2,
+                "q": "Which parameters does ClimaGuard ambient air monitoring system measure?",
+                "a": "ClimaGuard measures PM1, PM2.5, PM10 and gaseous pollutants such as CO, CO₂, NO₂, SO₂, O₃, NH₃, H₂S, and TVOCs, based on industrial air monitoring requirements."
+            },
+            {
+                "id": 3,
+                "q": "Is ClimaGuard suitable for real-time and continuous air quality monitoring?",
+                "a": "Yes. ClimaGuard is designed for real-time, continuous air quality monitoring for industrial, urban, and environmental applications."
+            },
+            {
+                "id": 4,
+                "q": "Can ClimaGuard be installed outdoors for industrial air monitoring?",
+                "a": "Yes. ClimaGuard features a weather-resistant outdoor enclosure, making it ideal for outdoor and industrial ambient air monitoring."
+            },
+            {
+                "id": 5,
+                "q": "Does ClimaGuard support cloud-based remote air quality monitoring?",
+                "a": "Yes. ClimaGuard supports IoT-enabled, cloud-based remote air quality monitoring, allowing real-time data access, visualization, and alerts."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "slug": "pm10&pm2.5-series",
+        "hero": [
+            {
+                "img": [],
+                "tagline": "Continuous Ambient Air Quality Monitoring System",
+                "heading": "PM 10 and PM 2.5 (CAAQMS)",
+                "sort_dec": "The device continuously measures the particulate matter concentration of ambient paticulate collected on a glass filter tape with a time resolution of 1 hour. ",
+                "features": [
+                    "High Accurarcy",
+                    "Advanced Communications",
+                    "Diagnostics",
+                    "Sensitivity",
+                    "Meteorological",
+                    "calibration"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "ClimaGuard",
+                "sub_heading": "PM 10 and PM 2.5 (CAAQMS)",
+                "decription": [
+                    "The device continuously measures the particulate matter concentration of ambient paticulate collected on a glass filter tape with a time resolution of 1 hour. ThePM 10 and PM 2.5 uses an in-line sampling geometry that meaures beta attenuation across the filter media while simultaneously sampling particles. This allows environmental samples to be taken 24/7 continuously. It also enables accurate reading of beta radiation measurements throught the hour, improving sensitivity and temporal resolution.",
+                    "ThePM 10 and PM 2.5 uses a unique 'in-situ' sampling technique to keep the beta ray meaurement  at a nearly constant temperature above ambient conditions. This prevents the loss of semi-volatile particulate matter or excess moisture in the sample stream, minimizing meaurements errors. Accurate meaurements are performed without the need for expensive Nation dryers, improving reliability and reducing operating costs. The integrated shelter does not use air conditioning, and the sampling system does not use flow splitters. This makes maintenance easier, improves reliability, and reducese power consumption.",
+                    "ThePM 10 and PM 2.5 is encased in a lightweight equipment shelter with an easily removable pump box, making it ideal for installation in places where permanent structures or walk-in shelters are not available. This device does not require an air conditioner, resulting in less power consumption. No component of the instrument weighs more than 40 pounds (18.14 kg), allowing it to be easily carried by one person. The user can get the whole system up and running in less than 10 minutes."
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "The PM 10 and PM 2.5 offers the following Features",
+                "data": [
+                    {
+                        "sub_heading": "Measurement",
+                        "desc": "In-situ measurement of PM that provides high accurarcy, minimal measurement artifacts."
+                    },
+                    {
+                        "sub_heading": "Frequency",
+                        "desc": "Reduced background determination frequency."
+                    },
+                    {
+                        "sub_heading": "Performance",
+                        "desc": "Unsurpassed performance under high ambient dew point operation."
+                    },
+                    {
+                        "sub_heading": "Communications",
+                        "desc": "Advanced communications features allowing remote operation and cloud-based communication."
+                    },
+                    {
+                        "sub_heading": "Diagnostics",
+                        "desc": "Advanced diagnostics."
+                    },
+                    {
+                        "sub_heading": "Moniters",
+                        "desc": "Improved sensitivity compared to orther in-Line beta attenuation mass moniters."
+                    },
+                    {
+                        "sub_heading": "Sensor",
+                        "desc": "Meteorological and other sensor inputs."
+                    },
+                    {
+                        "sub_heading": "Calibration",
+                        "desc": "Mass calibration system."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Technical Specification",
+                "tagline": "PM 10 and PM 2.5 series",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Resolution",
+                        "list": [
+                            "0.1 μg/m3"
+                        ]
+                    },
+                    {
+                        "items": "Measuring Object",
+                        "list": [
+                            "Particulate Matter In Ambient Air (PM)"
+                        ]
+                    },
+                    {
+                        "items": "Measuring Method",
+                        "list": [
+                            "B-ray Attenuation Method"
+                        ]
+                    },
+                    {
+                        "items": "Measuring Range",
+                        "list": [
+                            "0-1,0-5, 0-10 mg/m3, (optional)"
+                        ]
+                    },
+                    {
+                        "items": "Lower Detection Limit",
+                        "list": [
+                            "Less than 1 μg/m3"
+                        ]
+                    },
+                    {
+                        "items": "Accuracy",
+                        "list": [
+                            "±1% for 100 μg/m3",
+                            "+2% for <500 μg/m3",
+                            "+5% for 1000 μg/m3",
+                            "+10% for 10000 μg/m3"
+                        ]
+                    },
+                    {
+                        "items": "Repeatability",
+                        "list": [
+                            "<+3%"
+                        ]
+                    },
+                    {
+                        "items": "Detector or ẞ ray Detector",
+                        "list": [
+                            "Scintillation Photomultiplier Tube"
+                        ]
+                    },
+                    {
+                        "items": "Radio active",
+                        "list": [
+                            "C14 (Carbon-14), 60 μCi"
+                        ]
+                    },
+                    {
+                        "items": "Sample Flowrate",
+                        "list": [
+                            "16.7 LPM with automatic flow Regulation"
+                        ]
+                    },
+                    {
+                        "items": "Sampling Period",
+                        "list": [
+                            "1 hour"
+                        ]
+                    },
+                    {
+                        "items": "Sampling Time",
+                        "list": [
+                            "54 min"
+                        ]
+                    },
+                    {
+                        "items": "Material of Filter Tape",
+                        "list": [
+                            "Glass Fiber Filter"
+                        ]
+                    },
+                    {
+                        "items": "Internal Storage Capacity",
+                        "list": [
+                            "365 days for 1 h measuring values"
+                        ]
+                    },
+                    {
+                        "items": "Display",
+                        "list": [
+                            "7' LCD Capacitive touch display"
+                        ]
+                    },
+                    {
+                        "items": "Analogue Output",
+                        "list": [
+                            "4-20 mA, 0-1, 0-05V (Optional)"
+                        ]
+                    },
+                    {
+                        "items": "Digital Output",
+                        "list": [
+                            "Ethernet, RS-232 & RS-485"
+                        ]
+                    },
+                    {
+                        "items": "Protocal",
+                        "list": [
+                            "Modbus RTU (serial)",
+                            "Modbus RTU Over TCP/IP (Ethernet)"
+                        ]
+                    },
+                    {
+                        "items": "Environmental Conditions",
+                        "list": [
+                            "Temperature 0-40°C",
+                            "Humidity 0-90%"
+                        ]
+                    },
+                    {
+                        "items": "Power Supply",
+                        "list": [
+                            "220v/60hZ OR 230v/50hZ"
+                        ]
+                    },
+                    {
+                        "items": "Power Consumption",
+                        "list": [
+                            "<200W"
+                        ]
+                    },
+                    {
+                        "items": "Maintenance Interval",
+                        "list": [
+                            "3 Month"
+                        ]
+                    },
+                    {
+                        "items": "Dimensions",
+                        "list": [
+                            "Please Refer to 2.3 & 2.3.1 (Manual)"
+                        ]
+                    },
+                    {
+                        "items": "Weight",
+                        "list": [
+                            "15-20 kgs"
+                        ]
+                    },
+                    {
+                        "items": "Shelter Wheight",
+                        "list": [
+                            "50-60 kgs"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "pH Digital Sensor",
+            "heading": "Applications of pH Digital Sensor",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Industrial facilities",
+                    "desc": ""
+                },
+                {
+                    "icon": "fish",
+                    "title": "Smart cities",
+                    "desc": ""
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Construction and mining sites",
+                    "desc": ""
+                },
+                {
+                    "icon": "water",
+                    "title": "Environmental monitoring stations",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Government pollution control authorities",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Research and academic institutions",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Urban air quality surveillance",
+                    "desc": ""
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Infrastructure and transportation projects",
+                    "desc": ""
+                }
+            ]
+        },
+        "FAQ": [
+            {
+                "id": 1,
+                "q": "What is the working Principle of the PM 10 and PM 2.5 series?",
+                "a": "The PM 10 and PM 2.5 series operates using Beta Attenuation Technology."
+            },
+            {
+                "id": 2,
+                "q": "What is the National Standard & UE EPA approved / compliance Technology for measuring Particulate Matter?",
+                "a": "Beta ray Attenuation Monitoring (BAM) technology."
+            },
+            {
+                "id": 3,
+                "q": "How much time does it take for one measurement?",
+                "a": "Usually, in European states, pollution levels are very low, so they collect the sample continuously for 40 minutes at 16.5 liters/minute and make an average. For Indian conditions, we can measure as per user requirements, time, or pollution possibilities."
+            },
+            {
+                "id": 4,
+                "q": "How frequently do we need to change the filter tap?",
+                "a": "45 days @ 1 hour per sample."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "slug": "so2-gas-analyzer",
+        "hero": [
+            {
+                "img": [
+                    "assets/images/imgpH.png"
+                ],
+                "tagline": "Continuous Ambient Air Quality Monitoring System",
+                "heading": "Ambient SO2 Gas Analyzer",
+                "sort_dec": "Analyzer is the analyzer that measures minimum amount of SO₂, in air correctly using the UV fluorescene method. ",
+                "features": [
+                    "Advanced Monitoring Technology",
+                    "Regulatory Compliance Ready",
+                    "IoT & Cloud Connectivity",
+                    "High Accuracy & Reliability",
+                    "Modular & Scalable Design",
+                    "Remote Access & Control"
+                ],
+                "button": [
+                    {
+                        "id": 1,
+                        "icon": "arrow",
+                        "link": "mailto:support@vepolink.com",
+                        "text": "Book a Walkthrough",
+                        "class": "button button-dark"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "cloud",
+                        "link": "docs/Advance_Analytik_Company_Profile.pdf",
+                        "text": "Download Brochure",
+                        "class": "button button-light"
+                    }
+                ]
+            }
+        ],
+        "overview": [
+            {
+                "heading": "ClimaGuard",
+                "sub_heading": "PM 10 and PM 2.5 (CAAQMS)",
+                "decription": [
+                    "SO₂, Analyzer is the analyzer that measures minimum amount of SO₂, in air correctly using the UV fluorescene method. The UV lamp with less change of sensitivity used for vair-9001 was applied and the self manufactured kicker to remove the obstacle components such as HC is installed.",
+                    "To prevent the adhesion of specimen, the response chamber and specimen tube of special coating material was used to improve minimum detection and precision.",
+                    "All gas analyzers of Vair series were equipped with screen interface design using TFT-LCD & Touch screen so that user can operate the analyzer and maximize the visual image, and MCU applied to the analyzer is 32bit ARM Cortex M4 processor and operates based on Linux Kernel 2.6 which maximizes the system stability due to multiprocessing.",
+                    "In addition, the analyzer is equipped with automatic zero correction system (Auto Zero) for smooth measurement and various interfaces (Ethernet, RS232, RS485, USB, Analog out) so that user can use it more conveniently and usefully."
+                ]
+            }
+        ],
+        "benefits": [
+            {
+                "tag": "Benefits",
+                "heading": "Using an Ambient SO₂ Gas Analyzer",
+                "sub_heading": "Ambient SO₂ gas analyzers provide multiple benefits that contribute to air quality management, regulatory compliance, and public health. Here are the primary advantages:",
+                "data": [
+                    {
+                        "id": 1,
+                        "heading": "Real-Time Monitoring",
+                        "dec": "Modern SO₂ analyzers offer real-time data, enabling timely responses to pollution incidents and allowing regulatory authorities to take immediate action if levels exceed safe limits."
+                    },
+                    {
+                        "id": 2,
+                        "heading": "Data Accuracy and Reliability",
+                        "dec": "Advanced analyzers offer high levels of precision, ensuring accurate measurements even in low concentrations. This accuracy helps industries comply with air quality standards and avoid costly fines."
+                    },
+                    {
+                        "id": 3,
+                        "heading": "Cost-Efficiency in Long-Term Monitoring",
+                        "dec": "By continuously tracking SO₂ levels, ambient gas analyzers allow for long-term data collection without the need for frequent calibration or maintenance, reducing overall costs."
+                    },
+                    {
+                        "id": 4,
+                        "heading": "Protection of Public Health and Environment",
+                        "dec": "Monitoring SO₂ levels helps mitigate its adverse effects on respiratory health and prevents environmental harm caused by acid rain and soil acidification."
+                    }
+                ]
+            }
+        ],
+        "features": [
+            {
+                "heading": "Features of SO2 Gas Analyzer",
+                "data": [
+                    {
+                        "sub_heading": "Ranges",
+                        "desc": "Ranges 0-0.1 / 0.5 / 1 ppm, user selectable"
+                    },
+                    {
+                        "sub_heading": "Dispaly",
+                        "desc": "7inch TFT LCD & touch screen interface."
+                    },
+                    {
+                        "sub_heading": "Connectivity",
+                        "desc": "Ethernet, RS-232, RS-485 & USB ports."
+                    },
+                    {
+                        "sub_heading": "Interface",
+                        "desc": "USB interface utilizes for Stored Data Download."
+                    },
+                    {
+                        "sub_heading": "Temperature",
+                        "desc": "Temperature & pressure compenstion and internal zero (optional)."
+                    },
+                    {
+                        "sub_heading": "Data Logger",
+                        "desc": "In built Data Logger Utilizes NAND-Flash to Store up to 1year (1 min averaged data)."
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "list": "Technical Specification",
+                "tagline": "SO2 Gas Analyzer",
+                "heading": "Technical <br /><span class='serif-i'>Specifications</span>",
+                "table": [
+                    {
+                        "items": "Measuring items",
+                        "list": [
+                            "Sulfur Dioxide (SO2) in Ambient Air"
+                        ]
+                    },
+                    {
+                        "items": "Measuring Method",
+                        "list": [
+                            "Ultraviolet Fluorescence Method (UVF)"
+                        ]
+                    },
+                    {
+                        "items": "Range",
+                        "list": [
+                            "0-0.1/0-0.5/0.1 ppm (Selectable)"
+                        ]
+                    },
+                    {
+                        "items": "Lower Detectable Limit",
+                        "list": [
+                            "Less than 0.5ppb"
+                        ]
+                    },
+                    {
+                        "items": "Repeatability",
+                        "list": [
+                            "With in ± 1% of span gas concentration"
+                        ]
+                    },
+                    {
+                        "items": "Zero drift",
+                        "list": [
+                            "Less than 1ppb (1 day)"
+                        ]
+                    },
+                    {
+                        "items": "Span drift",
+                        "list": [
+                            "With in ± 0.5% full scale (1 day)"
+                        ]
+                    },
+                    {
+                        "items": "Response time (95%)",
+                        "list": [
+                            "Less than 90 seconds (T95)"
+                        ]
+                    },
+                    {
+                        "items": "Linearity",
+                        "list": [
+                            "With in ± 1% full scale"
+                        ]
+                    },
+                    {
+                        "items": "Precision",
+                        "list": [
+                            "0.5% of reading or 1 ppb"
+                        ]
+                    },
+                    {
+                        "items": "Operating Temperature",
+                        "list": [
+                            "5-40°C"
+                        ]
+                    },
+                    {
+                        "items": "Analog Output",
+                        "list": [
+                            "0-1V/0-5V or 4-20mA (optional)"
+                        ]
+                    },
+                    {
+                        "items": "Sample flow rate",
+                        "list": [
+                            "Stabilized flow control by 800cc/min ± 10% Critical Orifice"
+                        ]
+                    },
+                    {
+                        "items": "Particular filter",
+                        "list": [
+                            "47mm Teflon Filter"
+                        ]
+                    },
+                    {
+                        "items": "Display",
+                        "list": [
+                            "7' inch Graphic LCD"
+                        ]
+                    },
+                    {
+                        "items": "Comport",
+                        "list": [
+                            "Ethernet, USB2.0n RS-232, RS-485"
+                        ]
+                    },
+                    {
+                        "items": "Internal Data memory",
+                        "list": [
+                            "Measuring data (1 min/1 year), Operation history, Message, Alert"
+                        ]
+                    },
+                    {
+                        "items": "Power Requirement",
+                        "list": [
+                            "110-240V 50/60Hz"
+                        ]
+                    }
+                ]
+            },
+            {
+                "list": "Ordering Information",
+                "tagline": "SO2 Gas Analyzer",
+                "heading": "Ordering <br /><span class='serif-i'>Information</span>",
+                "table": [
+                    {
+                        "items": "Range",
+                        "list": [
+                            "0-0.5 ppm, 0-1 ppm (Standard)",
+                            "0-1 ppm, 0-2 ppm"
+                        ]
+                    },
+                    {
+                        "items": "Power",
+                        "list": [
+                            "230V AC/50Hz (Standard)",
+                            "220-240V AC/50Hz",
+                            "110-120V AC/60Hz"
+                        ]
+                    },
+                    {
+                        "items": "Internal Zero",
+                        "list": [
+                            "0 Sample/Call value (Standard)",
+                            "Z Internal zero Scrubber"
+                        ]
+                    },
+                    {
+                        "items": "Mountion Hardware",
+                        "list": [
+                            "Bench Mounting (Standard)",
+                            "H Ears & handles"
+                        ]
+                    },
+                    {
+                        "items": "Teflon Particulate filter",
+                        "list": [
+                            "0 Not Include (Standard)",
+                            "P 1pkgs"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "applications": {
+            "tagline": "Ambient SO2 Gas Analyzer",
+            "heading": "Applications of Ambient SO₂ Gas Analyzers",
+            "data": [
+                {
+                    "icon": "radioactive",
+                    "title": "Environmental Monitoring and Air Quality Stations",
+                    "desc": "Governments and environmental agencies set up ambient SO₂ analyzers in air quality monitoring stations to ensure that SO₂ levels remain within safe limits. These stations provide critical data used to protect the public and inform policy decisions."
+                },
+                {
+                    "icon": "fish",
+                    "title": "Industrial Emissions Monitoring",
+                    "desc": "Industries that produce sulfur dioxide, such as power plants, oil refineries, and chemical factories, rely on SO₂ gas analyzers to monitor and control emissions. By maintaining compliance with regulatory limits, these industries help minimize their impact on air quality."
+                },
+                {
+                    "icon": "food_beverage",
+                    "title": "Health and Safety in the Workplace",
+                    "desc": "In workplaces where SO₂ exposure is a risk, like chemical manufacturing and mining operations, ambient SO₂ analyzers help maintain safe working conditions by continuously measuring air quality to protect employees."
+                },
+                {
+                    "icon": "water",
+                    "title": "Transportation Emissions Control",
+                    "desc": "Vehicles, particularly those that use diesel, contribute to SO₂ emissions. Ambient SO₂ analyzers can be employed in areas with heavy traffic to monitor emissions and guide policies that aim to reduce pollution levels in urban settings."
+                },
+                {
+                    "icon": "waste_treatment",
+                    "title": "Research and Environmental Studies",
+                    "desc": "Researchers and environmental scientists use SO₂ analyzers to study pollution patterns, track changes in air quality, and assess the long-term impact of SO₂ on ecosystems. Data from these studies inform strategies to combat pollution and protect biodiversity."
+                }
+            ]
+        },
+        "FAQ": [
+            {
+                "id": 1,
+                "q": "What is the working principle of the Ambient SO₂ Gas Analyzer?",
+                "a": "The Ambient SO₂ Gas Analyzer operates using UV fluorescence technology for accurate and continuous sulfur dioxide (SO₂) measurement."
+            },
+            {
+                "id": 2,
+                "q": "Which parameter does this SO₂ analyzer measure?",
+                "a": "This analyzer measures ambient sulfur dioxide (SO₂) concentration for continuous ambient air quality monitoring."
+            },
+            {
+                "id": 3,
+                "q": "Is the Ambient SO₂ Gas Analyzer suitable for continuous monitoring?",
+                "a": "Yes. The system is designed for real-time, continuous SO₂ monitoring in ambient and industrial environments."
+            },
+            {
+                "id": 4,
+                "q": "Does this SO₂ gas analyzer comply with CPCB standards?",
+                "a": "Yes. The Ambient SO₂ Gas Analyzer is designed to meet CPCB and regulatory air quality monitoring guidelines."
+            },
+            {
+                "id": 5,
+                "q": "Can the Ambient SO₂ Gas Analyzer be installed outdoors?",
+                "a": "Yes. The analyzer is housed in a weather-resistant enclosure, making it suitable for outdoor ambient air quality monitoring installations."
+            }
+        ]
+    }
+]
