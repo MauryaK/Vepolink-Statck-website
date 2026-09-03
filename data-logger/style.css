@@ -837,6 +837,11 @@ section.IoT-technical .mp-shell figure.mp-dimensions-card img {
   max-height: 300px;
   margin: 0 auto;
 }
+@media screen and (max-width: 767px) {
+  section.IoT-technical .mp-shell figure.mp-dimensions-card img {
+    max-height: 230px;
+  }
+}
 
 @keyframes heli {
   0% {
