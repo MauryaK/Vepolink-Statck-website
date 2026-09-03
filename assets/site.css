@@ -15,6 +15,12 @@
   --alert: #c94d3b;
 }
 
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Indoor air quality monitoring */
 #indoor-air-main {
   --iaq-accent: #a66f20;
@@ -6705,6 +6711,18 @@ h2 {
 .sticky {
   position: sticky;
   top: 5em;
+}
+
+@media (max-width: 720px) {
+  .sticky {
+    position: static;
+    top: 5em;
+  }
+
+  .table_lay {
+    overflow-x: auto;
+    padding-bottom: 15px;
+  }
 }
 
 #multi-parameter-product-main.iot-page dd,
